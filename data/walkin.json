@@ -1,0 +1,293 @@
+{
+  "id": "walkin",
+  "htmlName": "walkin.html",
+  "site": {
+    "city": "Gdańsk",
+    "district": "Przymorze",
+    "title": "Walk In Barbershop Gdańsk Przymorze — Bez Sztywnego Czekania",
+    "description": "Walk In Barbershop Gdańsk — ul. Bora Komorowskiego 34A. Strzyżenie męskie, broda, combo. Wejdź prosto z ulicy lub zadzwoń: 570 050 265.",
+    "bookingUrl": "https://booksy.com",
+    "bookingProvider": "booksy",
+    "ga4": ""
+  },
+  "brand": {
+    "name": "WALK IN BARBERSHOP",
+    "logoImg": "./img/walkin-logo.webp",
+    "accent": "#C5A46A"
+  },
+  "header": {
+    "phone": "+48 570 050 265",
+    "phoneLabel": "570 050 265",
+    "cta": "Zadzwoń / Wpadnij"
+  },
+  "hero": {
+    "kicker": "Barber Shop • Gdańsk Przymorze",
+    "h1": "Wejdź prosto z ulicy. Cięcie bez kompromisów.",
+    "sub": "Wygodny format walk-in oraz rezerwacje na życzenie. Ul. Gen. Bora-Komorowskiego 34A (1. piętro). Dobra kawa i czyste przejścia.",
+    "ctaPrimary": {
+      "label": "Zadzwoń i wpadnij",
+      "href": "tel:+48570050265"
+    },
+    "ctaSecondary": {
+      "label": "Zobacz cennik",
+      "href": "#cennik"
+    },
+    "proof": "4,9/5 w opiniach Google — Gdańsk Przymorze",
+    "ratingValue": 4.9,
+    "reviewsCount": 180,
+    "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1800&h=1200&fit=crop"
+  },
+  "proofStrip": [
+    "Walk-in Welcome",
+    "Google 4,9 ★★★★★",
+    "Bora-Komorowskiego 34A",
+    "@walkin_barbershop"
+  ],
+  "trust": [
+    {
+      "icon": "scissors",
+      "title": "Doświadczeni barberzy",
+      "text": "Setki cięć w tygodniu, precyzja i zero pośpiechu."
+    },
+    {
+      "icon": "package",
+      "title": "Produkty premium",
+      "text": "Tylko sprawdzone pomady i kosmetyki do brody."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Higiena i sterylność",
+      "text": "Dezynfekcja narzędzi po każdym kliencie, świeże ostrza."
+    },
+    {
+      "icon": "thumbs-up",
+      "title": "Gwarancja zadowolenia",
+      "text": "Dopasowanie cięcia do kształtu głowy i stylu życia."
+    }
+  ],
+  "styles": [
+    {
+      "name": "Fade Klasyczny",
+      "price": "80 zł",
+      "img": "./img/walkin-bartosz.webp"
+    },
+    {
+      "name": "Combo Bartosz",
+      "price": "130 zł",
+      "img": "./img/walkin-hero.webp"
+    },
+    {
+      "name": "Trymowanie brody",
+      "price": "60 zł",
+      "img": "./img/walkin-interior.webp"
+    },
+    {
+      "name": "Maszynka boki",
+      "price": "60 zł",
+      "img": "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?w=800&h=600&fit=crop"
+    }
+  ],
+  "stats": [
+    {
+      "value": "Format",
+      "label": "Walk-In & Zapisy"
+    },
+    {
+      "value": "4,9",
+      "label": "ocena Google"
+    },
+    {
+      "value": "1. piętro",
+      "label": "Bora-Komorowskiego"
+    },
+    {
+      "value": "45 min",
+      "label": "średnia wizyta"
+    }
+  ],
+  "steps": [
+    {
+      "n": "01",
+      "title": "Wpadnij lub zadzwoń",
+      "text": "Tel: +48 570 050 265 lub wejdź bezpośrednio z ulicy."
+    },
+    {
+      "n": "02",
+      "title": "Usiądź na Przymorzu",
+      "text": "ul. Bora-Komorowskiego 34A (1. piętro). Spokojna atmosfera."
+    },
+    {
+      "n": "03",
+      "title": "Precyzja Bartosza",
+      "text": "Dopracowane przejścia fade, geometria brody i brzytwa."
+    },
+    {
+      "n": "04",
+      "title": "Płać wygodnie",
+      "text": "Gotówka, BLIK, karta. Zero komplikacji."
+    }
+  ],
+  "cennik": {
+    "kicker": "Cennik Walk In",
+    "title": "Rzetelne i przejrzyste ceny",
+    "groups": [
+      {
+        "name": "Włosy",
+        "items": [
+          {
+            "name": "Strzyżenie męskie klasyczne",
+            "desc": "Cięcie nożyczkami i maszynką z modelowaniem.",
+            "time": "45 min",
+            "price": "80 zł",
+            "bestseller": false
+          },
+          {
+            "name": "Strzyżenie maszynką",
+            "desc": "Czyste cięcie jedną lub dwoma nasadkami.",
+            "time": "30 min",
+            "price": "60 zł",
+            "bestseller": false
+          }
+        ]
+      },
+      {
+        "name": "Broda & Combo",
+        "items": [
+          {
+            "name": "Combo (Włosy + Broda)",
+            "desc": "Kompletna metamorfoza: cięcie głowy, trymowanie brody i kontur.",
+            "time": "60 min",
+            "price": "130 zł",
+            "bestseller": true
+          },
+          {
+            "name": "Trymowanie i modelowanie brody",
+            "desc": "Zarys linii, skrócenie i zmiękczający olejek.",
+            "time": "30 min",
+            "price": "60 zł",
+            "bestseller": false
+          }
+        ]
+      }
+    ],
+    "note": "Płatność kartą, BLIK, gotówką."
+  },
+  "team": [
+    {
+      "name": "Bartosz",
+      "role": "Master Barber & Właściciel",
+      "photo": "./img/walkin-bartosz.webp",
+      "exp": "Twórca Walk In",
+      "ig": "https://instagram.com/walkin_barbershop"
+    },
+    {
+      "name": "Kuba",
+      "role": "Barber — Szybkie Cięcia & Fade",
+      "photo": "./img/barber-kuba.jpg",
+      "exp": "Fade Master",
+      "ig": ""
+    },
+    {
+      "name": "Michał",
+      "role": "Barber — Klasyka & Broda",
+      "photo": "./img/barber-michal.jpg",
+      "exp": "Klasyka",
+      "ig": ""
+    }
+  ],
+  "gallery": [
+    {
+      "src": "./img/walkin-hero.webp",
+      "alt": "Stanowisko Walk In Barbershop",
+      "cap": "Stanowisko"
+    },
+    {
+      "src": "./img/walkin-bartosz.webp",
+      "alt": "Bartosz barber w trakcie pracy",
+      "cap": "Bartosz"
+    },
+    {
+      "src": "./img/walkin-interior.webp",
+      "alt": "Wnętrze Walk In Bora Komorowskiego",
+      "cap": "Wnętrze"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=1200&h=1500&fit=crop",
+      "alt": "Fade cięcie",
+      "cap": "Fade"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1200&h=1500&fit=crop",
+      "alt": "Broda kontur",
+      "cap": "Broda"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=1200&h=1500&fit=crop",
+      "alt": "Brzytwa detal",
+      "cap": "Detal"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Damian R.",
+      "stars": 5,
+      "date": "2026-09",
+      "text": "Super opcja z walk-in! Wpadłem bez rezerwacji, a wyszedłem z perfekcyjnym cięciem.",
+      "href": "https://maps.google.com/"
+    },
+    {
+      "name": "Michał K.",
+      "stars": 5,
+      "date": "2026-08",
+      "text": "Bartosz zna się na rzeczy. Bardzo dokładny, dba o każdy detal. Wracam regularnie.",
+      "href": "https://maps.google.com/"
+    },
+    {
+      "name": "Szymon T.",
+      "stars": 5,
+      "date": "2026-07",
+      "text": "Świetna atmosfera i normalne ceny. Najlepszy punkt na Przymorzu.",
+      "href": "https://maps.google.com/"
+    }
+  ],
+  "contact": {
+    "address": "ul. Gen. Bora-Komorowskiego 34A (1. piętro), 80-377 Gdańsk",
+    "phone": "+48 570 050 265",
+    "hours": [
+      {
+        "days": "Poniedziałek – Piątek",
+        "hours": "9:00 – 20:00"
+      },
+      {
+        "days": "Sobota",
+        "hours": "10:00 – 15:00"
+      },
+      {
+        "days": "Niedziela",
+        "hours": "Zamknięte"
+      }
+    ],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Walk+In+Barbershop+Gdansk+Bora+Komorowskiego"
+  },
+  "faq": [
+    {
+      "q": "Czy muszę rezerwować z wyprzedzeniem?",
+      "a": "Zalecamy rezerwację online lub telefonicznie, aby uniknąć czekania. W miarę wolnych miejsc przyjmujemy też z marszu."
+    },
+    {
+      "q": "Ile trwa wizyta?",
+      "a": "Standardowe strzyżenie trwa ok. 45 minut, pełny pakiet Combo (włosy + broda) to ok. 60–75 minut."
+    },
+    {
+      "q": "Czym mogę zapłacić?",
+      "a": "Przyjmujemy płatność kartą, BLIK-iem oraz gotówką."
+    }
+  ],
+  "footer": {
+    "address": "ul. Gen. Bora-Komorowskiego 34A, Gdańsk",
+    "phone": "+48 570 050 265",
+    "hours": "Pn–Pt 9:00–20:00, Sob 10:00–15:00",
+    "instagram": "https://www.instagram.com/walkin_barbershop/",
+    "booksy": "https://booksy.com"
+  }
+}

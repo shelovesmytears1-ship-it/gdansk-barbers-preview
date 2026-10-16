@@ -1,0 +1,76 @@
+/* tokens.css — premium barber workshop — anti-slop
+   Fonts loaded via <link> in index.html (preconnect + display=swap), no @import here */
+:root{
+  /* palette — Monolith Dark Workshop (no zebra) */
+  --bg: #0C0B0A;
+  --bg-soft: #141312;
+  --surface: #1A1816;
+  --surface-2: #22201D;
+  --surface-bestseller: rgba(197, 164, 106, 0.07);
+  
+  --ink: #F5F2EB;
+  --ink-inv: #F5F2EB;
+  --ink-muted: #A39D95;
+  --ink-muted-2: #7D776F;
+  --muted: #6B655E;
+  --muted-2: #8F8981;
+  
+  --line: #22201D;
+  --line-dark: #1E1C1A;
+  --line-light: #2D2A26;
+  --line-focus: #C5A46A;
+
+  --accent: #C5A46A;
+  --accent-2: #D8BD8A;
+  --accent-hover: #E0CBA8;
+  --accent-subtle: rgba(197, 164, 106, 0.12);
+  --on-accent: #0C0B0A;
+
+  --shade-0: rgba(12, 11, 10, 0);
+  --shade-35: rgba(12, 11, 10, 0.35);
+  --shade-55: rgba(12, 11, 10, 0.65);
+  --shade-82: rgba(12, 11, 10, 0.88);
+  --shade-95: rgba(12, 11, 10, 0.96);
+
+  --wood: #181410;
+  --wood-border: #28211A;
+  --white: #FFFFFF;
+  --overlay: rgba(8, 7, 6, 0.88);
+
+  /* typography — latin-ext for PL ąęśćńółżź */
+  --font-display: "Fraunces", serif;
+  --font-display-cond: "Oswald", sans-serif;
+  --font-body: "Instrument Sans", sans-serif;
+
+  --text-xs: 12px;
+  --text-sm: 14px;
+  --text-base: 16px;
+  --text-lg: 18px;
+  --text-h3: 22px;
+  --text-h2: 32px;
+  --text-h1: 48px;
+  --text-hero: 56px;
+
+  --leading-tight: 1.05;
+  --leading-base: 1.6;
+  --tracking-tight: -0.02em;
+  --tracking-wide: 0.08em;
+  --tracking-widest: 0.16em;
+
+  /* spacing 4px scale */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-6: 24px; --space-8: 32px; --space-12: 48px; --space-16: 64px; --space-24: 96px;
+
+  --radius-sm: 6px; --radius-md: 10px; --radius-lg: 16px; --radius-pill: 999px;
+
+  --container: 1180px;
+  --gutter: 24px;
+  --col-gap: 24px;
+
+  --ease: cubic-bezier(.22, 1, .36, 1);
+  --dur-1: 180ms; --dur-2: 320ms; --dur-3: 550ms;
+}
+
+html{ scrollbar-gutter: stable; }
+*{ box-sizing: border-box; }
+/* ANTI-SLOP: no backdrop-filter, no diffuse box-shadow, no transition:all — only explicit */

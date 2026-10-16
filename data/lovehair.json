@@ -1,0 +1,300 @@
+{
+  "id": "lovehair",
+  "htmlName": "lovehair.html",
+  "site": {
+    "city": "Gdańsk",
+    "district": "Morena",
+    "title": "Love Hair & Barber Shop Gdańsk Morena — Męskie Strzyżenie & Pielęgnacja",
+    "description": "Love Hair & Barber Shop Gdańsk Morena — ul. Franciszka Rakoczego 9/U6. Cięcia fade, stylizacja brody, kosmetyki Depot & Kevin Murphy. Tel: 730 000 457.",
+    "bookingUrl": "https://booksy.com/pl-pl/s/gdansk/barber-shop?q=Love+Hair",
+    "bookingProvider": "booksy",
+    "ga4": ""
+  },
+  "brand": {
+    "name": "LOVE HAIR & BARBER",
+    "logoImg": "./img/lovehair-logo.png",
+    "accent": "#C5A46A"
+  },
+  "header": {
+    "phone": "+48 730 000 457",
+    "phoneLabel": "730 000 457",
+    "cta": "Zarezerwuj"
+  },
+  "hero": {
+    "kicker": "Studio Fryzur & Barber • Gdańsk Morena",
+    "h1": "Współczesna elegancja i męski styl na Morenie.",
+    "sub": "Precyzyjne cięcia fade, stylizacja brody kosmetykami marek Depot i Kevin Murphy. Ul. Franciszka Rakoczego 9/U6.",
+    "ctaPrimary": {
+      "label": "Zarezerwuj wizytę",
+      "href": "https://booksy.com/pl-pl/s/gdansk/barber-shop?q=Love+Hair"
+    },
+    "ctaSecondary": {
+      "label": "Zobacz cennik",
+      "href": "#cennik"
+    },
+    "proof": "4,9/5 w opiniach Google — Gdańsk Morena",
+    "ratingValue": 4.9,
+    "reviewsCount": 220,
+    "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1800&h=1200&fit=crop"
+  },
+  "proofStrip": [
+    "Kevin Murphy & Depot",
+    "Google 4,9 ★★★★★",
+    "Morena — Rakoczego 9/U6",
+    "@lovehairbarbershop"
+  ],
+  "trust": [
+    {
+      "icon": "scissors",
+      "title": "Doświadczeni barberzy",
+      "text": "Setki cięć w tygodniu, precyzja i zero pośpiechu."
+    },
+    {
+      "icon": "package",
+      "title": "Produkty premium",
+      "text": "Tylko sprawdzone pomady i kosmetyki do brody."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Higiena i sterylność",
+      "text": "Dezynfekcja narzędzi po każdym kliencie, świeże ostrza."
+    },
+    {
+      "icon": "thumbs-up",
+      "title": "Gwarancja zadowolenia",
+      "text": "Dopasowanie cięcia do kształtu głowy i stylu życia."
+    }
+  ],
+  "styles": [
+    {
+      "name": "Fade Nowoczesny",
+      "price": "85 zł",
+      "img": "./img/lovehair-work1.jpg"
+    },
+    {
+      "name": "Combo Love Hair",
+      "price": "130 zł",
+      "img": "./img/lovehair-work2.jpg"
+    },
+    {
+      "name": "Broda & Kontur",
+      "price": "65 zł",
+      "img": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=600&fit=crop"
+    },
+    {
+      "name": "Ojciec + Syn",
+      "price": "140 zł",
+      "img": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=600&fit=crop"
+    }
+  ],
+  "stats": [
+    {
+      "value": "Depot",
+      "label": "kosmetyki premium"
+    },
+    {
+      "value": "4,9",
+      "label": "ocena salonu"
+    },
+    {
+      "value": "Morena",
+      "label": "ul. Rakoczego"
+    },
+    {
+      "value": "45 min",
+      "label": "średnia wizyta"
+    }
+  ],
+  "steps": [
+    {
+      "n": "01",
+      "title": "Zarezerwuj termin",
+      "text": "Online przez Booksy lub telefonicznie: +48 730 000 457."
+    },
+    {
+      "n": "02",
+      "title": "Przyjdź na Morenę",
+      "text": "ul. Franciszka Rakoczego 9/U6, wygodny dojazd i parking."
+    },
+    {
+      "n": "03",
+      "title": "Styl i relaks",
+      "text": "Dopracowane cięcie, gorący ręcznik, zapach męskich kosmetyków."
+    },
+    {
+      "n": "04",
+      "title": "Płatność",
+      "text": "BLIK, karta lub gotówka. Zapraszamy ponownie!"
+    }
+  ],
+  "cennik": {
+    "kicker": "Cennik Męski",
+    "title": "Klasyka i nowoczesność",
+    "groups": [
+      {
+        "name": "Strzyżenie",
+        "items": [
+          {
+            "name": "Strzyżenie męskie fade",
+            "desc": "Nożyczki + maszynka, mycie i stylizacja Depot.",
+            "time": "45 min",
+            "price": "85 zł",
+            "bestseller": false
+          },
+          {
+            "name": "Strzyżenie maszynką",
+            "desc": "Jednolita długość, wyrównanie karku.",
+            "time": "30 min",
+            "price": "60 zł",
+            "bestseller": false
+          },
+          {
+            "name": "Pakiet Ojciec + Syn",
+            "desc": "Kompleksowe strzyżenie dla taty i syna.",
+            "time": "60 min",
+            "price": "140 zł",
+            "bestseller": false
+          }
+        ]
+      },
+      {
+        "name": "Broda & Combo",
+        "items": [
+          {
+            "name": "Combo: Włosy + Broda",
+            "desc": "Pełen pakiet strzyżenia głowy i pielęgnacji brody.",
+            "time": "60 min",
+            "price": "130 zł",
+            "bestseller": true
+          },
+          {
+            "name": "Pielęgnacja & kontur brody",
+            "desc": "Trymowanie, zmiękczający balsam i konturowanie.",
+            "time": "30 min",
+            "price": "65 zł",
+            "bestseller": false
+          }
+        ]
+      }
+    ],
+    "note": "Płatność kartą, BLIK, gotówką."
+  },
+  "team": [
+    {
+      "name": "Marek",
+      "role": "Barber — Fade & Styling",
+      "photo": "./img/barber-kuba.jpg",
+      "exp": "Depot Specialist",
+      "ig": "https://instagram.com/lovehairbarbershop"
+    },
+    {
+      "name": "Kamil",
+      "role": "Barber — Klasyka & Broda",
+      "photo": "./img/barber-michal.jpg",
+      "exp": "Brzytwa",
+      "ig": ""
+    },
+    {
+      "name": "Tomek",
+      "role": "Barber — Nowoczesne Formy",
+      "photo": "./img/barber-bartek.jpg",
+      "exp": "Precyzja",
+      "ig": ""
+    }
+  ],
+  "gallery": [
+    {
+      "src": "./img/lovehair-work1.jpg",
+      "alt": "Cięcie fade w Love Hair Morena",
+      "cap": "Fade"
+    },
+    {
+      "src": "./img/lovehair-work2.jpg",
+      "alt": "Stylizacja Love Hair",
+      "cap": "Combo"
+    },
+    {
+      "src": "./img/lovehair-interior.jpg",
+      "alt": "Wnętrze salonu Love Hair Morena",
+      "cap": "Studio"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=1200&h=1500&fit=crop",
+      "alt": "Fade detal",
+      "cap": "Precyzja"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1200&h=1500&fit=crop",
+      "alt": "Broda",
+      "cap": "Broda"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=1200&h=1500&fit=crop",
+      "alt": "Styling kosmetykami Depot",
+      "cap": "Depot"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "Tomasz K.",
+      "stars": 5,
+      "date": "2026-09",
+      "text": "Fantastyczne miejsce na Morenie. Kosmetyki pachną obłędnie, a cięcie trzyma się tygodniami.",
+      "href": "https://maps.google.com/"
+    },
+    {
+      "name": "Piotr C.",
+      "stars": 5,
+      "date": "2026-08",
+      "text": "Chodzę z synem na pakiet Ojciec+Syn, zawsze świetna obsługa i cierpliwość.",
+      "href": "https://maps.google.com/"
+    },
+    {
+      "name": "Grzegorz N.",
+      "stars": 5,
+      "date": "2026-07",
+      "text": "Profesjonalizm i wysoka kultura. Zdecydowanie polecam Love Hair.",
+      "href": "https://maps.google.com/"
+    }
+  ],
+  "contact": {
+    "address": "ul. Franciszka Rakoczego 9/U6, 80-288 Gdańsk (Morena)",
+    "phone": "+48 730 000 457",
+    "hours": [
+      {
+        "days": "Poniedziałek – Piątek",
+        "hours": "9:00 – 20:00"
+      },
+      {
+        "days": "Sobota",
+        "hours": "8:00 – 15:00"
+      },
+      {
+        "days": "Niedziela",
+        "hours": "Zamknięte"
+      }
+    ],
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Love+Hair+Barber+Shop+Gdansk+Rakoczego"
+  },
+  "faq": [
+    {
+      "q": "Czy muszę rezerwować z wyprzedzeniem?",
+      "a": "Zalecamy rezerwację online lub telefonicznie, aby uniknąć czekania. W miarę wolnych miejsc przyjmujemy też z marszu."
+    },
+    {
+      "q": "Ile trwa wizyta?",
+      "a": "Standardowe strzyżenie trwa ok. 45 minut, pełny pakiet Combo (włosy + broda) to ok. 60–75 minut."
+    },
+    {
+      "q": "Czym mogę zapłacić?",
+      "a": "Przyjmujemy płatność kartą, BLIK-iem oraz gotówką."
+    }
+  ],
+  "footer": {
+    "address": "ul. Franciszka Rakoczego 9/U6, Gdańsk",
+    "phone": "+48 730 000 457",
+    "hours": "Pn–Pt 9:00–20:00, Sob 8:00–15:00",
+    "instagram": "https://www.instagram.com/lovehairbarbershop/",
+    "booksy": "https://booksy.com/pl-pl/s/gdansk/barber-shop?q=Love+Hair"
+  }
+}
