@@ -333,8 +333,11 @@ function render(data){
   /* quote banner */
   var quoteEl = document.querySelector('.quote-banner blockquote');
   if(quoteEl && data.site){
-    var quoteLoc = data.site.district ? 'na ' + data.site.district : (data.site.city ? 'w ' + (data.site.city === 'Gdańsk' ? 'Gdańsku' : data.site.city) : '');
-    quoteEl.textContent = '„Najlepszy barber ' + (quoteLoc || 'w mieście') + '.”';
+    var d = data.site.district;
+    var dLoc = d === 'Zaspa' ? 'na Zaspie' : (d === 'Przymorze' ? 'na Przymorzu' : (d === 'Oliwa' ? 'w Oliwie' : (d === 'Morena' ? 'na Morenie' : (d === 'Wrzeszcz' ? 'we Wrzeszczu' : (d ? 'na ' + d : '')))));
+    var cLoc = data.site.city === 'Gdańsk' ? 'w Gdańsku' : (data.site.city === 'Kraków' ? 'w Krakowie' : (data.site.city ? 'w ' + data.site.city : ''));
+    var quoteLoc = dLoc || cLoc || 'w mieście';
+    quoteEl.textContent = '„Najlepszy barber ' + quoteLoc + '.”';
   }
   var quoteImg = document.querySelector('.quote-banner img');
   if(quoteImg && Array.isArray(data.gallery) && data.gallery.length > 0){
