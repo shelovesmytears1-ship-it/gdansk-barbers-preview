@@ -31,16 +31,16 @@
       "label": "Zobacz cennik",
       "href": "#cennik"
     },
-    "proof": "5,0/5 — 500+ zadowolonych klientów na Booksy",
-    "ratingValue": 5,
-    "reviewsCount": 500,
+    "proof": "4,9/5 — 280+ opinii klientów",
+    "ratingValue": 4.9,
+    "reviewsCount": 280,
     "image": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1800&h=1200&fit=crop"
   },
   "proofStrip": [
-    "Booksy 5,0 ★★★★★",
-    "Google 4,9",
-    "Przymorze — Obrońców Wybrzeża 3",
-    "@barber.zone.gdansk"
+    "Google 4,9 ★★★★★",
+    "Booksy 4,9 ★★★★★",
+    "Gdańsk Przymorze",
+    "@barberzonegdansk"
   ],
   "trust": [
     {
@@ -66,34 +66,34 @@
   ],
   "styles": [
     {
-      "name": "Skin Fade",
+      "name": "Skin Fade Precision",
       "price": "100 zł",
-      "img": "./img/barberzone-1.jpg"
-    },
-    {
-      "name": "Combo Barber Zone",
-      "price": "140 zł",
       "img": "./img/barberzone-2.jpg"
     },
     {
-      "name": "Broda + Modelowanie",
-      "price": "70 zł",
-      "img": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=600&fit=crop"
+      "name": "Combo: Włosy + Broda",
+      "price": "140 zł",
+      "img": "./img/barberzone-1.jpg"
     },
     {
       "name": "Królewskie golenie",
       "price": "80 zł",
-      "img": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=800&h=600&fit=crop"
+      "img": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=600&fit=crop"
+    },
+    {
+      "name": "Trymowanie brody",
+      "price": "60 zł",
+      "img": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=600&fit=crop"
     }
   ],
   "stats": [
     {
-      "value": "5,0",
-      "label": "ocena na Booksy"
+      "value": "4,9",
+      "label": "ocena klientów"
     },
     {
-      "value": "500+",
-      "label": "stałych klientów"
+      "value": "280+",
+      "label": "zadowolonych gości"
     },
     {
       "value": "Przymorze",
@@ -101,37 +101,37 @@
     },
     {
       "value": "45 min",
-      "label": "czas wizyty"
+      "label": "czas na detal"
     }
   ],
   "steps": [
     {
       "n": "01",
-      "title": "Wybierz termin",
-      "text": "Przez Booksy lub telefonicznie: +48 884 846 475."
+      "title": "Zarezerwuj termin",
+      "text": "Wybierz usługę i godzinę online w Booksy lub zadzwoń: +48 884 846 475."
     },
     {
       "n": "02",
       "title": "Wpadnij na Przymorze",
-      "text": "ul. Obrońców Wybrzeża 3U/1, blisko Falowca i galerii."
+      "text": "ul. Obrońców Wybrzeża 3U/1, blisko Galerii Przymorze. Wygodny dojazd."
     },
     {
       "n": "03",
-      "title": "Cięcie z pasją",
-      "text": "Piotr, Sylwia, Quinten i Hubert — mistrzowska dbałość o detal."
+      "title": "Czyste rzemiosło",
+      "text": "Fade z brzytwą, broda z gorącym ręcznikiem, zapach dobrej wody kolońskiej."
     },
     {
       "n": "04",
-      "title": "Płać i wracaj",
-      "text": "Karta, BLIK, gotówka. Świeży look gwarantowany."
+      "title": "Czysty styl",
+      "text": "Płać kartą, BLIK lub gotówką. Do zobaczenia za miesiąc!"
     }
   ],
   "cennik": {
     "kicker": "Cennik Barber Zone",
-    "title": "Przejrzyste menu usług",
+    "title": "Przejrzyście i bez kompromisów",
     "groups": [
       {
-        "name": "Strzyżenie włosów",
+        "name": "Włosy & Fade",
         "items": [
           {
             "name": "Strzyżenie męskie klasyczne",
@@ -141,15 +141,15 @@
             "bestseller": false
           },
           {
-            "name": "Strzyżenie męskie — Skin Fade",
+            "name": "Skin Fade Precision",
             "desc": "Precyzyjne golenie boków do zera, ostre linie.",
             "time": "45 min",
             "price": "100 zł",
             "bestseller": false
           },
           {
-            "name": "Refresh boki & kontur",
-            "desc": "Szybkie odświeżenie przejść maszynką.",
+            "name": "Refresh boki & szyja",
+            "desc": "Szybkie odświeżenie przejść maszynką i shaverem.",
             "time": "30 min",
             "price": "60 zł",
             "bestseller": false
@@ -157,27 +157,53 @@
         ]
       },
       {
-        "name": "Broda & Pakiety",
+        "name": "Stylizacja brody",
         "items": [
           {
-            "name": "Combo Barber Zone (Włosy + Broda)",
-            "desc": "Pełne cięcie i kompleksowa stylizacja zarostu.",
+            "name": "Trymowanie brody nożyczkami",
+            "desc": "Kształt, wyczesanie, podcięcie i olejek nawilżający.",
+            "time": "30 min",
+            "price": "60 zł",
+            "bestseller": false
+          },
+          {
+            "name": "Królewskie golenie brzytwą",
+            "desc": "Pianka na gorąco, brzytwa i kompres z balsamem.",
+            "time": "40 min",
+            "price": "80 zł",
+            "bestseller": false
+          },
+          {
+            "name": "Kontur & pielęgnacja olejkiem",
+            "desc": "Precyzyjne wyznaczenie linii zarostu i policzków.",
+            "time": "20 min",
+            "price": "50 zł",
+            "bestseller": false
+          }
+        ]
+      },
+      {
+        "name": "Pakiety Combo",
+        "items": [
+          {
+            "name": "Combo: Cięcie + Broda",
+            "desc": "Pełna metamorfoza: strzyżenie włosów + pielęgnacja brody.",
             "time": "60 min",
             "price": "140 zł",
             "bestseller": true
           },
           {
-            "name": "Trymowanie brody + modelowanie",
-            "desc": "Kształt, podgolenie brzytwą i olejek pielęgnacyjny.",
-            "time": "35 min",
-            "price": "70 zł",
+            "name": "Full Service VIP",
+            "desc": "Cięcie, broda, woskowanie nosa/uszu i maska regeneracyjna.",
+            "time": "75 min",
+            "price": "180 zł",
             "bestseller": false
           },
           {
-            "name": "Królewskie golenie brzytwą",
-            "desc": "Gorący ręcznik, piana, brzytwa i chłodzący balsam.",
-            "time": "40 min",
-            "price": "80 zł",
+            "name": "Ojciec + Syn",
+            "desc": "Dwa stanowiska i wspólny czas w męskim klimacie.",
+            "time": "60 min",
+            "price": "160 zł",
             "bestseller": false
           }
         ]
@@ -187,127 +213,121 @@
   },
   "team": [
     {
-      "name": "Piotr",
-      "role": "Barber — Skin Fade & Pompadour",
+      "name": "Kuba",
+      "role": "Master Barber & Skin Fade",
       "photo": "./img/barber-kuba.jpg",
-      "exp": "6 lat",
-      "ig": "https://instagram.com/barber.zone.gdansk"
+      "exp": "7 lat",
+      "ig": "https://instagram.com/barberzonegdansk"
     },
     {
-      "name": "Sylwia",
-      "role": "Barber — Klasyczne Cięcia & Detale",
+      "name": "Michał",
+      "role": "Barber — Broda & Klasyka",
       "photo": "./img/barber-michal.jpg",
-      "exp": "Precyzja",
+      "exp": "5 lat",
       "ig": ""
     },
     {
-      "name": "Quinten",
-      "role": "Barber — Broda & Brzytwa",
+      "name": "Bartek",
+      "role": "Barber — Nowoczesne Cięcia",
       "photo": "./img/barber-bartek.jpg",
-      "exp": "Mistrz Brody",
-      "ig": ""
-    },
-    {
-      "name": "Hubert",
-      "role": "Barber — Nowoczesny Styling",
-      "photo": "./img/barber-kuba.jpg",
-      "exp": "Fade",
+      "exp": "3 lata",
       "ig": ""
     }
   ],
   "gallery": [
     {
       "src": "./img/barberzone-1.jpg",
-      "alt": "Realizacja Barber Zone Fade & Beard",
-      "cap": "Fade & Beard"
-    },
-    {
-      "src": "./img/barberzone-2.jpg",
-      "alt": "Barber Zone Przymorze stylizacja",
-      "cap": "Skin Fade"
-    },
-    {
-      "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&h=1500&fit=crop",
-      "alt": "Combo Barber Zone",
-      "cap": "Combo"
-    },
-    {
-      "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=1200&h=1500&fit=crop",
-      "alt": "Wnętrze Barber Zone",
+      "alt": "Stanowiska Barber Zone Gdańsk",
       "cap": "Wnętrze"
     },
     {
+      "src": "./img/barberzone-2.jpg",
+      "alt": "Skin Fade Barber Zone",
+      "cap": "Skin Fade"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=1200&h=1500&fit=crop",
+      "alt": "Modelowanie Brody",
+      "cap": "Broda"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1200&h=1500&fit=crop",
+      "alt": "Combo Włosy + Broda",
+      "cap": "Combo"
+    },
+    {
       "src": "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?w=1200&h=1500&fit=crop",
-      "alt": "Kontur brzytwą",
-      "cap": "Brzytwa"
+      "alt": "Detal brzytwy",
+      "cap": "Detal"
     },
     {
       "src": "https://images.unsplash.com/photo-1493256338651-d82f7acb2b38?w=1200&h=1500&fit=crop",
-      "alt": "Detal wykończenia",
-      "cap": "Detal"
+      "alt": "Czyste przejście z tyłu",
+      "cap": "Przejście"
     }
   ],
   "reviews": [
     {
-      "name": "Artur M.",
+      "name": "Tomasz M.",
       "stars": 5,
       "date": "2026-09",
-      "text": "Piotr i Sylwia to absolutna ekstraklasa. Najlepszy fade w całym Trójmieście.",
+      "text": "Najlepsze przejście skin fade w Gdańsku. Bardzo dokładna robota i świetna kawa.",
       "href": "https://maps.google.com/"
     },
     {
-      "name": "Jakub L.",
+      "name": "Kamil R.",
       "stars": 5,
       "date": "2026-08",
-      "text": "Świetna lokalizacja na Przymorzu, profesjonalizm w każdym calu. Polecam Combo!",
+      "text": "Broda ogarnięta wzorowo, pełen relaks przy gorącym ręczniku. Zdecydowanie polecam.",
       "href": "https://maps.google.com/"
     },
     {
-      "name": "Kamil B.",
+      "name": "Grzegorz B.",
       "stars": 5,
       "date": "2026-08",
-      "text": "Czysto, punktualnie i z niesamowitą dbałością o brodę. Moje stałe miejsce.",
+      "text": "Super klimat na Przymorzu, punktualnie, czysto i profesjonalnie. Wracam regularnie.",
       "href": "https://maps.google.com/"
     }
   ],
   "contact": {
     "address": "ul. Obrońców Wybrzeża 3U/1, 80-398 Gdańsk (Przymorze)",
     "phone": "+48 884 846 475",
-    "hours": [
-      {
-        "days": "Poniedziałek – Piątek",
-        "hours": "9:00 – 20:00"
-      },
-      {
-        "days": "Sobota",
-        "hours": "9:00 – 16:00"
-      },
-      {
-        "days": "Niedziela",
-        "hours": "Zamknięte"
-      }
-    ],
-    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Barber+Zone+Gdansk+Obroncow+Wybrzeza"
+    "hours": "Poniedziałek – Piątek 9:00 – 20:00 • Sobota 9:00 – 16:00 • Niedziela nieczynne",
+    "mapUrl": "https://www.google.com/maps/search/?api=1&query=Barber+Zone+Gdansk+Obroncow+Wybrzeza",
+    "mapEmbed": "https://maps.google.com/maps?q=ul.+Obro%C5%84c%C3%B3w+Wybrze%C5%BCa+3U%2F1+80-398+Gda%C5%84sk&t=&z=16&ie=UTF8&iwloc=&output=embed"
   },
   "faq": [
     {
       "q": "Czy muszę rezerwować z wyprzedzeniem?",
-      "a": "Zalecamy rezerwację online lub telefonicznie, aby uniknąć czekania. W miarę wolnych miejsc przyjmujemy też z marszu."
+      "a": "Zalecamy rezerwację online przez Booksy lub telefonicznie, aby uniknąć czekania. W miarę wolnych miejsc przyjmujemy też z marszu."
     },
     {
       "q": "Ile trwa wizyta?",
-      "a": "Standardowe strzyżenie trwa ok. 45 minut, pełny pakiet Combo (włosy + broda) to ok. 60–75 minut."
+      "a": "Standardowe strzyżenie trwa ok. 45 minut, pełny pakiet Combo (włosy + broda) to ok. 60–75 minut. Zapewniamy pełen komfort i zero pośpiechu."
     },
     {
       "q": "Czym mogę zapłacić?",
-      "a": "Przyjmujemy płatność kartą, BLIK-iem oraz gotówką."
+      "a": "Przyjmujemy płatność kartą, BLIK-iem oraz gotówką. Paragon lub fakturę otrzymasz na miejscu."
+    },
+    {
+      "q": "Czy mogę odwołać wizytę?",
+      "a": "Tak, bezpłatnie do 3 godzin przed planowanym terminem bezpośrednio w aplikacji Booksy lub dzwoniąc do nas."
+    },
+    {
+      "q": "Jak dojechać i gdzie zaparkować?",
+      "a": "Przy salonie dostępny jest wygodny parking dla klientów oraz dogodny dojazd komunikacją miejską."
     }
   ],
+  "finalCta": {
+    "h2": "Gotowy na świeże cięcie?",
+    "sub": "Wybierz dogodny termin online przez Booksy lub zadzwoń bezpośrednio do salonu na Przymorzu.",
+    "cta": "Zarezerwuj teraz →"
+  },
   "footer": {
     "address": "ul. Obrońców Wybrzeża 3U/1, Gdańsk",
     "phone": "+48 884 846 475",
     "hours": "Pn–Pt 9:00–20:00, Sob 9:00–16:00",
-    "instagram": "https://www.instagram.com/barber.zone.gdansk/",
+    "instagram": "https://www.instagram.com/barberzonegdansk/",
     "booksy": "https://booksy.com/pl-pl/s/gdansk/barber-shop?q=Barber+Zone"
   }
 }

@@ -363,14 +363,16 @@ function render(data){
   }
   setHref('contact-route', data.contact.routeHref, 'https://maps.google.com/');
   var iframe = document.getElementById('map-iframe');
-  var ph = document.getElementById('map-placeholder');
-  if(iframe && ph){
+  if(iframe){
     var embed = String(data.contact.mapEmbed || '');
-    if(/^https:\/\/(www\.)?google\.com\/maps\/embed/i.test(embed)){
+    if(!embed && data.contact.address){
+      embed = 'https://maps.google.com/maps?q=' + encodeURIComponent(data.contact.address) + '&t=&z=16&ie=UTF8&iwloc=&output=embed';
+    }
+    if(embed){
       iframe.src = embed;
-      ph.addEventListener('click', function(){ ph.style.display = 'none'; iframe.style.display = 'block'; });
-    } else {
-      ph.textContent = 'Mapa niedostępna — zobacz trasę powyżej';
+      iframe.style.display = 'block';
+      var ph = document.getElementById('map-placeholder');
+      if(ph) ph.style.display = 'none';
     }
   }
 
@@ -395,15 +397,29 @@ function render(data){
     });
   }
 
-  setText('final-h2', data.finalCta ? data.finalCta.h2 : '');
-  setText('final-sub', data.finalCta ? data.finalCta.sub : '');
-  setText('final-cta', data.finalCta ? data.finalCta.cta : '');
-  var footerSpan = document.querySelector('.footer span:first-child');
-  if(footerSpan && data.brand && data.brand.name){
-    var loc = [data.site ? data.site.city : '', data.site ? data.site.district : ''].filter(Boolean).join(' ');
-    footerSpan.textContent = '© 2026 ' + data.brand.name + (loc ? ' • ' + loc : '');
+  setText('final-h2', (data.finalCta && data.finalCta.h2) || 'Gotowy na świeże cięcie?');
+  setText('final-sub', (data.finalCta && data.finalCta.sub) || 'Wybierz dogodny termin online przez Booksy lub zadzwoń bezpośrednio.');
+  setText('final-cta', (data.finalCta && data.finalCta.cta) || 'Zarezerwuj teraz →');
+
+  /* rich footer rendering */
+  var footerLogo = document.getElementById('footer-logo');
+  if(footerLogo && data.brand && data.brand.name){
+    var logoImg = data.brand.logoImg ? safeImg(data.brand.logoImg) : '';
+    footerLogo.innerHTML = (logoImg ? '<img src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '">' : '') +
+      '<span>' + escapeHTML(data.brand.name) + '</span>';
   }
-  if(data.footer && data.footer.privacyHref) setHref('footer-privacy', data.footer.privacyHref, '#');
+  setText('footer-address', data.contact ? data.contact.address : '');
+  setText('footer-hours', data.contact ? (typeof data.contact.hours === 'string' ? data.contact.hours : 'Pn–Pt 9:00–21:00, Sob 9:00–18:00') : '');
+  var footPhone = document.getElementById('footer-phone-link');
+  if(footPhone && data.contact && data.contact.phone){
+    footPhone.textContent = data.contact.phone;
+    footPhone.href = telHref;
+  }
+  var footCpy = document.getElementById('footer-copyright');
+  if(footCpy && data.brand && data.brand.name){
+    var loc = [data.site ? data.site.city : '', data.site ? data.site.district : ''].filter(Boolean).join(' ');
+    footCpy.textContent = '© 2026 ' + data.brand.name + (loc ? ' • ' + loc : '');
+  }
 
   /* JSON-LD (dynamic enriches static fallback in <head>) */
   var ld = document.getElementById('ld-json');
