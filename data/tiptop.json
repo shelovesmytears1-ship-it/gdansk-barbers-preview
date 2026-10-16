@@ -216,21 +216,21 @@
     {
       "name": "Serhii",
       "role": "Master Barber & Założyciel",
-      "photo": "./img/tiptop-staff1.jpeg",
+      "photo": "./img/barber-kuba.jpg",
       "exp": "Mistrz Fade",
       "ig": "https://instagram.com/barbershop.tiptop.gdansk"
     },
     {
       "name": "Alina",
       "role": "Barber — Klasyka & Nożyczki",
-      "photo": "./img/tiptop-staff2.jpeg",
+      "photo": "./img/barber-alina.jpg",
       "exp": "Precyzja",
       "ig": ""
     },
     {
       "name": "Lera",
       "role": "Barber — Szybkie Cięcia & Styling",
-      "photo": "./img/tiptop-staff3.jpeg",
+      "photo": "./img/barber-lera.jpg",
       "exp": "Styling",
       "ig": ""
     }

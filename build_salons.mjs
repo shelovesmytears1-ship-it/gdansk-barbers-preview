@@ -108,9 +108,9 @@ const salons = [
       note: "Płatność kartą, BLIK, gotówką. Rezerwacja online 24/7."
     },
     team: [
-      { "name": "Serhii", "role": "Master Barber & Założyciel", "photo": "./img/tiptop-staff1.jpeg", "exp": "Mistrz Fade", "ig": "https://instagram.com/barbershop.tiptop.gdansk" },
-      { "name": "Alina", "role": "Barber — Klasyka & Nożyczki", "photo": "./img/tiptop-staff2.jpeg", "exp": "Precyzja", "ig": "" },
-      { "name": "Lera", "role": "Barber — Szybkie Cięcia & Styling", "photo": "./img/tiptop-staff3.jpeg", "exp": "Styling", "ig": "" }
+      { "name": "Serhii", "role": "Master Barber & Założyciel", "photo": "./img/barber-kuba.jpg", "exp": "Mistrz Fade", "ig": "https://instagram.com/barbershop.tiptop.gdansk" },
+      { "name": "Alina", "role": "Barber — Klasyka & Nożyczki", "photo": "./img/barber-alina.jpg", "exp": "Precyzja", "ig": "" },
+      { "name": "Lera", "role": "Barber — Szybkie Cięcia & Styling", "photo": "./img/barber-lera.jpg", "exp": "Styling", "ig": "" }
     ],
     gallery: [
       { "src": "./img/tiptop-hero.jpeg", "alt": "Salon Tip Top Zaspa", "cap": "Salon Zaspa" },
@@ -814,7 +814,13 @@ salons.forEach(salon => {
   html = html.replace(/<text><textPath href="#hero-badge-circle" startOffset="0">.*?<\/textPath><\/text>/i, `<text><textPath href="#hero-badge-circle" startOffset="0">${brandUp} • ${locUp} • REZERWACJA ONLINE • </textPath></text>`);
 
   // Quote section
-  const quoteLoc = salon.site.district ? `na ${salon.site.district}` : (salon.site.city === 'Gdańsk' ? 'w Gdańsku' : `w ${salon.site.city}`);
+  const quoteLoc = salon.site.district ? (
+    salon.site.district === 'Zaspa' ? 'na Zaspie' :
+    salon.site.district === 'Przymorze' ? 'na Przymorzu' :
+    salon.site.district === 'Morena' ? 'na Morenie' :
+    salon.site.district === 'Oliwa' ? 'w Oliwie' :
+    `na ${salon.site.district}`
+  ) : 'w Trójmieście';
   html = html.replace(/<blockquote class="edit-accent">.*?<\/blockquote>/i, `<blockquote class="edit-accent">„Najlepszy barber ${quoteLoc}.”</blockquote>`);
   if (salon.gallery && salon.gallery.length > 0) {
     const quoteBg = salon.gallery[salon.gallery.length - 1].src || salon.hero.image;
