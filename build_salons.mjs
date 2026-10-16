@@ -824,10 +824,13 @@ salons.forEach(salon => {
     `na ${salon.site.district}`
   ) : 'w Trójmieście';
   html = html.replace(/<blockquote class="edit-accent">.*?<\/blockquote>/i, `<blockquote class="edit-accent">„Najlepszy barber ${quoteLoc}.”</blockquote>`);
-  if (salon.gallery && salon.gallery.length > 0) {
-    const quoteBg = salon.gallery[salon.gallery.length - 1].src || salon.hero.image;
-    html = html.replace(/<section class="quote-banner reveal" aria-label="Opinia">\s*<img src="[^"]*"/i, `<section class="quote-banner reveal" aria-label="Opinia">\n  <img src="${quoteBg}"`);
+  if (salon.reviews && salon.reviews.length > 0) {
+    html = html.replace(/<figcaption>.*?<\/figcaption>/i, `<figcaption>${salon.reviews[0].name} · Google</figcaption>`);
   }
+  const quoteBg = salon.gallery && salon.gallery.find(g => g.cap === 'Wnętrze' || g.cap === 'Salon') 
+    ? salon.gallery.find(g => g.cap === 'Wnętrze' || g.cap === 'Salon').src 
+    : './img/tiptop-interior.jpeg';
+  html = html.replace(/<section class="quote-banner reveal" aria-label="Opinia">\s*<img src="[^"]*"/i, `<section class="quote-banner reveal" aria-label="Opinia">\n  <img src="${quoteBg}"`);
 
   // Cennik CTA
   html = html.replace(/id="cennik-cta" href="[^"]*"/i, `id="cennik-cta" href="${salon.site.bookingUrl}"`);

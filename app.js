@@ -339,6 +339,10 @@ function render(data){
     var quoteLoc = dLoc || cLoc || 'w mieście';
     quoteEl.textContent = '„Najlepszy barber ' + quoteLoc + '.”';
   }
+  var quoteCap = document.querySelector('.quote-banner figcaption');
+  if(quoteCap && Array.isArray(data.reviews) && data.reviews.length > 0){
+    quoteCap.textContent = data.reviews[0].name + ' · Google';
+  }
   var quoteImg = document.querySelector('.quote-banner img');
   if(quoteImg && Array.isArray(data.gallery) && data.gallery.length > 0){
     var qSrc = safeImg(data.gallery[data.gallery.length - 1].src || data.hero.image);
