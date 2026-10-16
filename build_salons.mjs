@@ -59,10 +59,10 @@ const salons = [
     proofStrip: ["Google 4,9 ★★★★★", "Booksy 4,9 ★★★★★", "Gdańsk Zaspa", "@barbershop.tiptop.gdansk"],
     trust: commonTrust,
     styles: [
-      { "name": "Skin Fade", "price": "100 zł", "img": "./img/tiptop-cut1.jpeg" },
-      { "name": "Combo (Włosy + Broda)", "price": "160 zł", "img": "./img/tiptop-cut2.jpeg" },
-      { "name": "Stylizacja Brody", "price": "80 zł", "img": "./img/tiptop-cut3.jpeg" },
-      { "name": "Szybkie boki", "price": "80 zł", "img": "./img/tiptop-cut4.jpeg" }
+      { "name": "Strzyżenie męskie", "price": "100 zł", "img": "./img/tiptop-cut1.jpeg" },
+      { "name": "Combo", "price": "150 zł", "img": "./img/tiptop-cut2.jpeg" },
+      { "name": "Strzyżenie brody", "price": "80 zł", "img": "./img/tiptop-cut3.jpeg" },
+      { "name": "Bok i tył", "price": "80 zł", "img": "./img/tiptop-cut4.jpeg" }
     ],
     stats: [
       { "value": "4,9", "label": "ocena klientów" },
@@ -78,34 +78,36 @@ const salons = [
     ],
     cennik: {
       kicker: "Cennik Tip Top",
-      title: "Rzemiosło i uczciwe ceny",
+      title: "Rzemiosło i uczciwe ceny z Booksy",
       groups: [
         {
           name: "Strzyżenie męskie",
           items: [
-            { "name": "Strzyżenie męskie klasyczne", "desc": "Cięcie nożyczkami i maszynką, mycie i stylizacja.", "time": "45 min", "price": "100 zł", "bestseller": false },
-            { "name": "Skin Fade / Czysty fade", "desc": "Precyzyjne cieniowanie od zera z ostrą linią.", "time": "45 min", "price": "110 zł", "bestseller": false },
-            { "name": "Strzyżenie boków & kontur", "desc": "Odświeżenie samego fade'a i linii karku.", "time": "30 min", "price": "80 zł", "bestseller": false }
+            { "name": "Strzyżenie męskie", "desc": "Cięcie maszynką i nożyczkami, mycie oraz stylizacja.", "time": "45 min", "price": "100 zł", "bestseller": false },
+            { "name": "Strzyżenie nożyczkami", "desc": "Precyzyjne cięcie nożyczkami dopasowane do struktury włosa.", "time": "1g 10min", "price": "110 zł", "bestseller": false },
+            { "name": "Bok i tył", "desc": "Odświeżenie boków i linii karku bez skracania góry.", "time": "30 min", "price": "80 zł", "bestseller": false },
+            { "name": "Strzyżenie maszynką", "desc": "Strzyżenie maszynką na jedną wybraną długość.", "time": "30 min", "price": "70 zł", "bestseller": false }
           ]
         },
         {
-          name: "Pielęgnacja brody",
+          name: "Broda & Combo",
           items: [
-            { "name": "Strzyżenie & modelowanie brody", "desc": "Trymowanie kształtu, kontur brzytwą i olejek.", "time": "30 min", "price": "80 zł", "bestseller": false },
-            { "name": "Kontur brzytwą + gorący ręcznik", "desc": "Tradycyjne golenie konturu z kompresem parowym.", "time": "25 min", "price": "70 zł", "bestseller": false },
-            { "name": "Pełny rytuał spa dla brody", "desc": "Mycie szamponem, odżywka, olejek i gorący ręcznik.", "time": "35 min", "price": "90 zł", "bestseller": false }
+            { "name": "Combo (Włosy + Broda)", "desc": "Strzyżenie męskie w pakiecie z pełnym strzyżeniem brody.", "time": "1g 15min", "price": "150 zł", "bestseller": true },
+            { "name": "Strzyżenie brody", "desc": "Nadanie kształtu, trymowanie, kontur brzytwą i olejek.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Korekcja woskiem", "desc": "Precyzyjne usuwanie niechcianych włosków z uszu, nosa lub brwi.", "time": "20 min", "price": "20 zł", "bestseller": false },
+            { "name": "Układanie włosów", "desc": "Mycie i profesjonalna stylizacja fryzury pomadą.", "time": "15 min", "price": "20 zł", "bestseller": false }
           ]
         },
         {
-          name: "Pakiety & Combo",
+          name: "Pakiety & Dzieci",
           items: [
-            { "name": "Combo: Włosy + Broda", "desc": "Kompleksowe strzyżenie z pełną pielęgnacją brody.", "time": "60 min", "price": "160 zł", "bestseller": true },
-            { "name": "Ojciec + Syn", "desc": "Dwa fotele obok siebie, idealny męski czas.", "time": "60 min", "price": "180 zł", "bestseller": false },
-            { "name": "Komplet VIP Tip Top", "desc": "Włosy, broda, czarna maska peel-off i masaż głowy.", "time": "75 min", "price": "210 zł", "bestseller": false }
+            { "name": "Strzyżenie Ojciec i Syn", "desc": "Dwa fotele obok siebie, męski czas i dwa dopasowane cięcia.", "time": "1g 30min", "price": "160 zł", "bestseller": false },
+            { "name": "Strzyżenie Dziecka (do 10 lat)", "desc": "Cierpliwe i bezstresowe strzyżenie dla najmłodszych.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Koloryzacja", "desc": "Tuszowanie siwizny lub odświeżenie naturalnego odcienia.", "time": "50 min", "price": "60 zł", "bestseller": false }
           ]
         }
       ],
-      note: "Płatność kartą, BLIK, gotówką. Rezerwacja online 24/7."
+      note: "Płatność kartą, BLIK, gotówką. Rezerwacja online 24/7 przez Booksy."
     },
     team: [
       { "name": "Serhii", "role": "Master Barber & Założyciel", "photo": "./img/barber-kuba.jpg", "exp": "Mistrz Fade", "ig": "https://instagram.com/barbershop.tiptop.gdansk" },
