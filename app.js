@@ -157,7 +157,12 @@ function render(data){
       if(/\.svg$/i.test(logoImg)){
         logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '">';
       } else {
-        logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '" style="height:32px;width:auto;border-radius:4px;object-fit:cover;margin-right:10px;vertical-align:middle;display:inline-block"><span style="vertical-align:middle">' + escapeHTML(data.brand.name) + '</span>';
+        var parts = String(data.brand.name).split(/\s+/);
+        var title = (parts.length > 1 && parts[0].length <= 4) ? parts[0] + ' ' + parts[1] : (parts[0] || data.brand.name);
+        var dist = (data.site && data.site.district) ? data.site.district.toUpperCase() : '';
+        logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '" style="height:32px;width:32px;border-radius:50%;border:1px solid var(--accent);object-fit:cover;flex-shrink:0;">' +
+          '<div class="logo-lockup"><span class="logo-title">' + escapeHTML(title) + '</span>' +
+          '<span class="logo-sub">' + escapeHTML(dist ? 'BARBERSHOP • ' + dist : 'BARBERSHOP') + '</span></div>';
       }
     } else {
       var parts = String(data.brand.name).split(/\s+/);
