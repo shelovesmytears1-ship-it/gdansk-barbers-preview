@@ -1,6 +1,29 @@
 [
   {
     "id": 1,
+    "name": "Barber Zone",
+    "address": "Przymorze, ul. Obrońców Wybrzeża 3",
+    "phone": "+48 884 846 475",
+    "instagram": "@barber.zone.gdansk",
+    "instagramUrl": "https://ig.me/m/barber.zone.gdansk",
+    "whatsappUrl": "https://wa.me/48884846475?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Overflow%20Web%20(https%3A%2F%2Foverflow-web.pl).%0A%0ATrafi%C5%82em%20na%20Barber%20Zone%20na%20Booksy%20i%20w%20Google%20Maps%20%E2%80%94%20macie%20%C5%9Bwietn%C4%85%20renom%C4%99%20na%20Przymorzu%20(280%2B%20opinii%204.9%E2%98%85)%2C%20a%20Wasze%20przej%C5%9Bcia%20Skin%20Fade%20i%20golenie%20brzytw%C4%85%20robi%C4%85%20mega%20wra%C5%BCenie.%20Zauwa%C5%BCy%C5%82em%20jednak%2C%20%C5%BCe%20bazujecie%20g%C5%82%C3%B3wnie%20na%20profilu%20Booksy%20i%20nie%20macie%20w%C5%82asnej%20strony%20www.%0A%0ASzkoda%20oddawa%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20innym%20salonom%2C%20dlatego%20przygotowa%C5%82em%20dla%20Was%20dzia%C5%82aj%C4%85cy%20prototyp%20nowoczesnej%20strony%20premium%20dedykowany%20dla%20Barber%20Zone%20%E2%80%94%20z%20Wasz%C4%85%20lokalizacj%C4%85%20na%20Obro%C5%84c%C3%B3w%20Wybrze%C5%BCa%2C%20cennikiem%20i%20bezpo%C5%9Brednim%20przyciskiem%20do%20rezerwacji%20w%20Waszym%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2Fbarberzone.html%0A%0AZobaczcie%2C%20jak%20prezentuje%20si%C4%99%20na%20smartfonie.%20Je%C5%9Bli%20przypadnie%20Wam%20do%20gustu%2C%20mog%C4%99%20wdro%C5%BCy%C4%87%20t%C4%99%20stron%C4%99%20pod%20Wasz%C4%85%20w%C5%82asn%C4%85%20domen%C4%85%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20miesi%C4%99cznych%20abonament%C3%B3w).%0A%0AJak%20Wam%20si%C4%99%20podoba%20taki%20projekt%3F",
+    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barber+Zone+Gdansk+Obroncow+Wybrzeza",
+    "landingUrl": "https://barber-template-pi.vercel.app/barberzone.html",
+    "status": "odpowiedzieli",
+    "statusNote": "Przekazano wlascicielowi, pytaja o zakres, cene i obsluge",
+    "lastContactDate": "2026-10-20",
+    "history": [
+      {
+        "date": "2026-10-20T17:45:28.111Z",
+        "status": "odpowiedzieli",
+        "note": "Przekazano wlascicielowi, pytaja o zakres, cene i obsluge"
+      }
+    ],
+    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Barber Zone na Booksy i w Google Maps — macie świetną renomę na Przymorzu (280+ opinii 4.9★), a Wasze przejścia Skin Fade i golenie brzytwą robią mega wrażenie. Zauważyłem jednak, że bazujecie głównie na profilu Booksy i nie macie własnej strony www.\n\nSzkoda oddawać klientów z wyszukiwarki innym salonom, dlatego przygotowałem dla Was działający prototyp nowoczesnej strony premium dedykowany dla Barber Zone — z Waszą lokalizacją na Obrońców Wybrzeża, cennikiem i bezpośrednim przyciskiem do rezerwacji w Waszym Booksy:\n👉 https://barber-template-pi.vercel.app/barberzone.html\n\nZobaczcie, jak prezentuje się na smartfonie. Jeśli przypadnie Wam do gustu, mogę wdrożyć tę stronę pod Waszą własną domeną za 500 zł jednorazowo (bez żadnych miesięcznych abonamentów).\n\nJak Wam się podoba taki projekt?",
+    "websiteVerified": false
+  },
+  {
+    "id": 2,
     "name": "Tip Top Barbershop",
     "address": "Zaspa, ul. Hynka 18/u3",
     "phone": "+48 530 197 203",
@@ -13,57 +36,11 @@
     "statusNote": "",
     "lastContactDate": null,
     "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nŚledzę Wasz salon na Booksy i Google Maps — macie świetną renomę na Zaspie (ponad 350 opinii 4.9★ i świetna robota Serhiia i ekipy). Zauważyłem jednak, że nie posiadacie własnej, niezależnej strony www, przez co wielu klientów szukających barbera w Google trafia do konkurencji.\n\nPrzygotowałem dla Was gotowy, w pełni funkcjonalny prototyp strony dedykowany specjalnie dla Tip Top — zsynchronizowałem w nim Wasz pełny cennik z Booksy (wszystkie 11 usług), sekcję zespołu i bezpośrednią rezerwację:\n👉 https://barber-template-pi.vercel.app/tiptop.html\n\nRzućcie okiem, jak płynnie to wygląda na telefonie. Jeśli projekt się Wam spodoba, chętnie pomogę wdrożyć i uruchomić go na stałe pod Waszą domeną za 500 zł jednorazowo (bez żadnych abonamentów i ukrytych kosztów).\n\nCo o tym sądzicie? Chętnie usłyszę Waszą opinię!"
-  },
-  {
-    "id": 2,
-    "name": "Barber Zone",
-    "address": "Przymorze, ul. Obrońców Wybrzeża 3",
-    "phone": "+48 884 846 475",
-    "instagram": "@barber.zone.gdansk",
-    "instagramUrl": "https://ig.me/m/barber.zone.gdansk",
-    "whatsappUrl": "https://wa.me/48884846475?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Overflow%20Web%20(https%3A%2F%2Foverflow-web.pl).%0A%0ATrafi%C5%82em%20na%20Barber%20Zone%20na%20Booksy%20i%20w%20Google%20Maps%20%E2%80%94%20macie%20%C5%9Bwietn%C4%85%20renom%C4%99%20na%20Przymorzu%20(280%2B%20opinii%204.9%E2%98%85)%2C%20a%20Wasze%20przej%C5%9Bcia%20Skin%20Fade%20i%20golenie%20brzytw%C4%85%20robi%C4%85%20mega%20wra%C5%BCenie.%20Zauwa%C5%BCy%C5%82em%20jednak%2C%20%C5%BCe%20bazujecie%20g%C5%82%C3%B3wnie%20na%20profilu%20Booksy%20i%20nie%20macie%20w%C5%82asnej%20strony%20www.%0A%0ASzkoda%20oddawa%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20innym%20salonom%2C%20dlatego%20przygotowa%C5%82em%20dla%20Was%20dzia%C5%82aj%C4%85cy%20prototyp%20nowoczesnej%20strony%20premium%20dedykowany%20dla%20Barber%20Zone%20%E2%80%94%20z%20Wasz%C4%85%20lokalizacj%C4%85%20na%20Obro%C5%84c%C3%B3w%20Wybrze%C5%BCa%2C%20cennikiem%20i%20bezpo%C5%9Brednim%20przyciskiem%20do%20rezerwacji%20w%20Waszym%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2Fbarberzone.html%0A%0AZobaczcie%2C%20jak%20prezentuje%20si%C4%99%20na%20smartfonie.%20Je%C5%9Bli%20przypadnie%20Wam%20do%20gustu%2C%20mog%C4%99%20wdro%C5%BCy%C4%87%20t%C4%99%20stron%C4%99%20pod%20Wasz%C4%85%20w%C5%82asn%C4%85%20domen%C4%85%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20miesi%C4%99cznych%20abonament%C3%B3w).%0A%0AJak%20Wam%20si%C4%99%20podoba%20taki%20projekt%3F",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Barber+Zone+Gdansk+Obroncow+Wybrzeza",
-    "landingUrl": "https://barber-template-pi.vercel.app/barberzone.html",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Barber Zone na Booksy i w Google Maps — macie świetną renomę na Przymorzu (280+ opinii 4.9★), a Wasze przejścia Skin Fade i golenie brzytwą robią mega wrażenie. Zauważyłem jednak, że bazujecie głównie na profilu Booksy i nie macie własnej strony www.\n\nSzkoda oddawać klientów z wyszukiwarki innym salonom, dlatego przygotowałem dla Was działający prototyp nowoczesnej strony premium dedykowany dla Barber Zone — z Waszą lokalizacją na Obrońców Wybrzeża, cennikiem i bezpośrednim przyciskiem do rezerwacji w Waszym Booksy:\n👉 https://barber-template-pi.vercel.app/barberzone.html\n\nZobaczcie, jak prezentuje się na smartfonie. Jeśli przypadnie Wam do gustu, mogę wdrożyć tę stronę pod Waszą własną domeną za 500 zł jednorazowo (bez żadnych miesięcznych abonamentów).\n\nJak Wam się podoba taki projekt?"
+    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nŚledzę Wasz salon na Booksy i Google Maps — macie świetną renomę na Zaspie (ponad 350 opinii 4.9★ i świetna robota Serhiia i ekipy). Zauważyłem jednak, że nie posiadacie własnej, niezależnej strony www, przez co wielu klientów szukających barbera w Google trafia do konkurencji.\n\nPrzygotowałem dla Was gotowy, w pełni funkcjonalny prototyp strony dedykowany specjalnie dla Tip Top — zsynchronizowałem w nim Wasz pełny cennik z Booksy (wszystkie 11 usług), sekcję zespołu i bezpośrednią rezerwację:\n👉 https://barber-template-pi.vercel.app/tiptop.html\n\nRzućcie okiem, jak płynnie to wygląda na telefonie. Jeśli projekt się Wam spodoba, chętnie pomogę wdrożyć i uruchomić go na stałe pod Waszą domeną za 500 zł jednorazowo (bez żadnych abonamentów i ukrytych kosztów).\n\nCo o tym sądzicie? Chętnie usłyszę Waszą opinię!",
+    "websiteVerified": false
   },
   {
     "id": 3,
-    "name": "Walk In Barbershop",
-    "address": "Przymorze, ul. Bora Komorowskiego 34A",
-    "phone": "+48 570 050 265",
-    "instagram": "@walkin_barbershop",
-    "instagramUrl": "https://ig.me/m/walkin_barbershop",
-    "whatsappUrl": "https://wa.me/48570050265?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Overflow%20Web%20(https%3A%2F%2Foverflow-web.pl).%0A%0AZauwa%C5%BCy%C5%82em%20Walk%20In%20Barbershop%20na%20Google%20Maps%20i%20w%20aplikacji%20Booksy.%20Bardzo%20podoba%20mi%20si%C4%99%20Wasz%20autentyczny%2C%20rzemie%C5%9Blniczy%20klimat%20na%20Bora-Komorowskiego%20%E2%80%94%20wida%C4%87%2C%20%C5%BCe%20Bartosz%20i%20ekipa%20stawiaj%C4%85%20na%20jako%C5%9B%C4%87%2C%20precyzyjne%20no%C5%BCyczki%20i%20zero%20po%C5%9Bpiechu.%20Zauwa%C5%BCy%C5%82em%20jednak%20brak%20w%C5%82asnej%20wizyt%C3%B3wki%20www.%0A%0AWielu%20facet%C3%B3w%20szuka%20barbera%20bezpo%C5%9Brednio%20przez%20Google%2C%20dlatego%20stworzy%C5%82em%20dla%20Was%20gotowy%2C%20lekki%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20logo%2C%20klimatem%20salonu%2C%20cennikiem%20i%20bezpo%C5%9Brednim%20przekierowaniem%20do%20termin%C3%B3w%20w%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2Fwalkin.html%0A%0ARzu%C4%87cie%20okiem%20na%20telefonie%20%E2%80%94%20%C5%82aduje%20si%C4%99%20b%C5%82yskawicznie%20i%20ma%20ciemny%2C%20m%C4%99ski%20styl.%20Je%C5%9Bli%20chcieliby%C5%9Bcie%20mie%C4%87%20tak%C4%85%20stron%C4%99%20na%20sta%C5%82e%20pod%20w%C5%82asnym%20adresem%20www%2C%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(czysto%2C%20bez%20abonamentu).%0A%0ADajcie%20zna%C4%87%2C%20co%20o%20tym%20my%C5%9Blicie!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Walk+In+Barbershop+Gdansk+Bora+Komorowskiego",
-    "landingUrl": "https://barber-template-pi.vercel.app/walkin.html",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nZauważyłem Walk In Barbershop na Google Maps i w aplikacji Booksy. Bardzo podoba mi się Wasz autentyczny, rzemieślniczy klimat na Bora-Komorowskiego — widać, że Bartosz i ekipa stawiają na jakość, precyzyjne nożyczki i zero pośpiechu. Zauważyłem jednak brak własnej wizytówki www.\n\nWielu facetów szuka barbera bezpośrednio przez Google, dlatego stworzyłem dla Was gotowy, lekki prototyp strony — z Waszym logo, klimatem salonu, cennikiem i bezpośrednim przekierowaniem do terminów w Booksy:\n👉 https://barber-template-pi.vercel.app/walkin.html\n\nRzućcie okiem na telefonie — ładuje się błyskawicznie i ma ciemny, męski styl. Jeśli chcielibyście mieć taką stronę na stałe pod własnym adresem www, chętnie wdrożę ją dla Was za 500 zł jednorazowo (czysto, bez abonamentu).\n\nDajcie znać, co o tym myślicie!"
-  },
-  {
-    "id": 4,
-    "name": "Fast Fade Barber",
-    "address": "Chełm, ul. Władysława Cieszyńskiego 38/18",
-    "phone": "+48 730 273 222",
-    "instagram": "@fastfadebarber.pl",
-    "instagramUrl": "https://ig.me/m/fastfadebarber.pl",
-    "whatsappUrl": "https://wa.me/48730273222?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fast+Fade+Barber+Gdansk+Cieszynskiego",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 5,
     "name": "Love Hair & Barber Shop",
     "address": "Morena, ul. Rakoczego 9",
     "phone": "+48 730 000 457",
@@ -76,10 +53,11 @@
     "statusNote": "",
     "lastContactDate": null,
     "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Love Hair & Barber na Booksy i w Google Maps. Macie świetną lokalizację na Morenie przy Rakoczego i bardzo wysokie oceny zadowolonych klientów (4.8★). Zauważyłem jednak, że nie posiadacie niezależnej strony internetowej.\n\nProfil w Booksy jest super do samego kalendarza, ale własna strona pozwala łapać klientów z Google i budować wizerunek nowoczesnego salonu. Przygotowałem dla Was działający prototyp strony z Waszym brandingiem, ofertą Combo i rezerwacją Booksy:\n👉 https://barber-template-pi.vercel.app/lovehair.html\n\nZobaczcie, jak to śmiga na telefonie. Jeśli uznacie, że to wartościowe uzupełnienie Waszego biznesu, z przyjemnością uruchomię tę stronę dla Was za 500 zł jednorazowo (bez żadnych opłat abonamentowych).\n\nChętnie usłyszę Wasze zdanie — co sądzicie?"
+    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Love Hair & Barber na Booksy i w Google Maps. Macie świetną lokalizację na Morenie przy Rakoczego i bardzo wysokie oceny zadowolonych klientów (4.8★). Zauważyłem jednak, że nie posiadacie niezależnej strony internetowej.\n\nProfil w Booksy jest super do samego kalendarza, ale własna strona pozwala łapać klientów z Google i budować wizerunek nowoczesnego salonu. Przygotowałem dla Was działający prototyp strony z Waszym brandingiem, ofertą Combo i rezerwacją Booksy:\n👉 https://barber-template-pi.vercel.app/lovehair.html\n\nZobaczcie, jak to śmiga na telefonie. Jeśli uznacie, że to wartościowe uzupełnienie Waszego biznesu, z przyjemnością uruchomię tę stronę dla Was za 500 zł jednorazowo (bez żadnych opłat abonamentowych).\n\nChętnie usłyszę Wasze zdanie — co sądzicie?",
+    "websiteVerified": false
   },
   {
-    "id": 6,
+    "id": 4,
     "name": "Buongiorno Barber Shop (Oliwa)",
     "address": "Oliwa, al. Grunwaldzka 515",
     "phone": "+48 501 776 520",
@@ -92,10 +70,71 @@
     "statusNote": "",
     "lastContactDate": null,
     "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Buongiorno w Oliwie na Booksy i Google Maps — macie genialny, unikalny włoski klimat na Grunwaldzkiej (ponad 320 opinii 4.9★ to rewelacyjny wynik!). Widzę jednak, że nie macie dedykowanej strony internetowej reprezentującej salon w sieci.\n\nUważam, że włoskie rzemiosło i rytuał golenia zasługują na odpowiednią oprawę w Google, dlatego stworzyłem gotowy prototyp strony skrojony pod Buongiorno Oliwa — z włoskim nazewnictwem usług (Taglio Capelli, Cura della Barba), klimatem i rezerwacją Booksy:\n👉 https://barber-template-pi.vercel.app/buongiorno-oliwa.html\n\nRzućcie okiem na telefonie. Gdybyście chcieli uruchomić taki serwis na stałe pod Waszą domeną, chętnie wdrożę go dla Was za 500 zł jednorazowo (bez abonamentów i ukrytych opłat).\n\nCo myślicie o takiej prezentacji salonu?"
+    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nTrafiłem na Buongiorno w Oliwie na Booksy i Google Maps — macie genialny, unikalny włoski klimat na Grunwaldzkiej (ponad 320 opinii 4.9★ to rewelacyjny wynik!). Widzę jednak, że nie macie dedykowanej strony internetowej reprezentującej salon w sieci.\n\nUważam, że włoskie rzemiosło i rytuał golenia zasługują na odpowiednią oprawę w Google, dlatego stworzyłem gotowy prototyp strony skrojony pod Buongiorno Oliwa — z włoskim nazewnictwem usług (Taglio Capelli, Cura della Barba), klimatem i rezerwacją Booksy:\n👉 https://barber-template-pi.vercel.app/buongiorno-oliwa.html\n\nRzućcie okiem na telefonie. Gdybyście chcieli uruchomić taki serwis na stałe pod Waszą domeną, chętnie wdrożę go dla Was za 500 zł jednorazowo (bez abonamentów i ukrytych opłat).\n\nCo myślicie o takiej prezentacji salonu?",
+    "websiteVerified": false
   },
   {
-    "id": 7,
+    "name": "Easy Barber",
+    "address": "Wrzeszcz, ul. Sobótki 1/2",
+    "phone": "+48 533 730 878",
+    "instagram": "@easybarber.gdansk",
+    "instagramUrl": "https://ig.me/m/easybarber.gdansk",
+    "landingUrl": "https://barber-template-pi.vercel.app/easybarber.html",
+    "status": "do_kontaktu",
+    "statusNote": "100% czysty, brak www, Booksy + tel w bio",
+    "history": [],
+    "id": 5
+  },
+  {
+    "name": "BURDA Barber & Shop",
+    "address": "Śródmieście, ul. Ogarna 11/12",
+    "phone": "+48 58 301 22 11",
+    "instagram": "@burda_barbershop",
+    "instagramUrl": "https://ig.me/m/burda_barbershop",
+    "landingUrl": "https://barber-template-pi.vercel.app/burda.html",
+    "status": "do_kontaktu",
+    "statusNote": "100% czysty, brak www, tylko Booksy",
+    "history": [],
+    "id": 6
+  },
+  {
+    "name": "Danziger Barber",
+    "address": "Stare Miasto, ul. Angielska Grobla 32",
+    "phone": "+48 791 224 810",
+    "instagram": "@danzigerbarber",
+    "instagramUrl": "https://ig.me/m/danzigerbarber",
+    "landingUrl": "https://barber-template-pi.vercel.app/danziger.html",
+    "status": "do_kontaktu",
+    "statusNote": "100% czysty, 5.0★ Booksy, brak www",
+    "history": [],
+    "id": 7
+  },
+  {
+    "name": "Bones Barber",
+    "address": "Oliwa, ul. Polanki 83",
+    "phone": "+48 515 427 731",
+    "instagram": "@bones_barber_",
+    "instagramUrl": "https://ig.me/m/bones_barber_",
+    "landingUrl": "https://barber-template-pi.vercel.app/bones.html",
+    "status": "do_kontaktu",
+    "statusNote": "100% czysty, 1000+ opinii 5.0★, DM + Booksy",
+    "history": [],
+    "id": 8
+  },
+  {
+    "name": "Stary Barber Shop",
+    "address": "Przymorze, ul. Jagiellońska 10H/1 (falowiec)",
+    "phone": "+48 572 888 221",
+    "instagram": "@starybarbershop",
+    "instagramUrl": "https://ig.me/m/starybarbershop",
+    "landingUrl": "https://barber-template-pi.vercel.app/starybarber.html",
+    "status": "do_kontaktu",
+    "statusNote": "100% czysty, pies Figa w salonie, Booksy",
+    "history": [],
+    "id": 9
+  },
+  {
+    "id": 10,
     "name": "Buongiorno Barber Shop (Morena)",
     "address": "Morena, ul. Piekarnicza 21",
     "phone": "+48 571 571 652",
@@ -108,10 +147,11 @@
     "statusNote": "",
     "lastContactDate": null,
     "history": [],
-    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nZauważyłem Wasz drugi salon Buongiorno na Morenie przy ul. Piekarniczej na Booksy i w Google Maps. Super, że przenieśliście ten charakterystyczny włoski styl i jakość do nowej dzielnicy (ocena 4.9★ i blisko 200 opinii). Brakuje Wam jednak niezależnej strony www dla tej lokalizacji.\n\nŻeby ułatwić mieszkańcom Moreny trafienie do Was z Google, przygotowałem gotowy prototyp strony dedykowany salonowi na Piekarniczej — z dokładnym adresem, cennikiem i bezpośrednim podpięciem do Waszego Booksy:\n👉 https://barber-template-pi.vercel.app/buongiorno-morena.html\n\nZobaczcie, jak szybko i czysto to działa. Jeśli projekt przypadnie Wam do gustu, mogę go wdrożyć pod klucz za 500 zł jednorazowo (bez żadnych miesięcznych abonamentów).\n\nBędę wdzięczny za krótką opinię — co sądzicie?"
+    "customPitchText": "Dzień dobry! Z tej strony Daniil z Overflow Web (https://overflow-web.pl).\n\nZauważyłem Wasz drugi salon Buongiorno na Morenie przy ul. Piekarniczej na Booksy i w Google Maps. Super, że przenieśliście ten charakterystyczny włoski styl i jakość do nowej dzielnicy (ocena 4.9★ i blisko 200 opinii). Brakuje Wam jednak niezależnej strony www dla tej lokalizacji.\n\nŻeby ułatwić mieszkańcom Moreny trafienie do Was z Google, przygotowałem gotowy prototyp strony dedykowany salonowi na Piekarniczej — z dokładnym adresem, cennikiem i bezpośrednim podpięciem do Waszego Booksy:\n👉 https://barber-template-pi.vercel.app/buongiorno-morena.html\n\nZobaczcie, jak szybko i czysto to działa. Jeśli projekt przypadnie Wam do gustu, mogę go wdrożyć pod klucz za 500 zł jednorazowo (bez żadnych miesięcznych abonamentów).\n\nBędę wdzięczny za krótką opinię — co sądzicie?",
+    "websiteVerified": false
   },
   {
-    "id": 8,
+    "id": 11,
     "name": "Barber U Wuja (Dawid Lewandowski)",
     "address": "Morena, ul. Zofii Nałkowskiej 4",
     "phone": "+48 725 305 533",
@@ -123,10 +163,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 9,
+    "id": 12,
     "name": "Dart Barber (Oskar Maszota)",
     "address": "Żabianka / Przymorze, ul. Pomorska",
     "phone": "+48 799 032 204",
@@ -138,25 +179,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 10,
-    "name": "Fryzjer Męski Madison",
-    "address": "Śródmieście, ul. Rajska 10 (CH Madison)",
-    "phone": "+48 690 181 316",
-    "instagram": "",
-    "instagramUrl": "",
-    "whatsappUrl": "https://wa.me/48690181316?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fryzjer+Meski+Madison+Gdansk+Rajska",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 11,
+    "id": 13,
     "name": "Harmonia Piękna (Studio Męskie)",
     "address": "Łostowice, ul. Bramińskiego 11 U4",
     "phone": "+48 790 666 852",
@@ -168,10 +195,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 12,
+    "id": 14,
     "name": "Pigment Lab & Barber Cut",
     "address": "Morena, ul. Rakoczego 11 u4",
     "phone": "+48 570 684 441",
@@ -183,25 +211,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 13,
-    "name": "BURDA Barber & Shop",
-    "address": "Główne Miasto, ul. Ogarna 11/12",
-    "phone": "+48 572 454 534",
-    "instagram": "@burda_barbershop",
-    "instagramUrl": "https://ig.me/m/burda_barbershop",
-    "whatsappUrl": "https://wa.me/48572454534?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=BURDA+Barber+Shop+Gdansk+Ogarna",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 14,
+    "id": 15,
     "name": "Mr. Długosz Barbershop",
     "address": "Wrzeszcz, al. Grunwaldzka 6/2",
     "phone": "+48 737 172 214",
@@ -213,10 +227,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 15,
+    "id": 16,
     "name": "Primo Mo's Barber Shop",
     "address": "Wrzeszcz, ul. Dmowskiego 5",
     "phone": "+48 503 489 722",
@@ -228,40 +243,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 16,
-    "name": "Bałtycki Barber (Wrzeszcz)",
-    "address": "Wrzeszcz, ul. Chrobrego 54",
-    "phone": "+48 789 959 969",
-    "instagram": "@baltycki_barber",
-    "instagramUrl": "https://ig.me/m/baltycki_barber",
-    "whatsappUrl": "https://wa.me/48789959969?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Baltycki+Barber+Gdansk+Chrobrego",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
     "id": 17,
-    "name": "Bałtycki Barber (Nowy Port)",
-    "address": "Nowy Port, ul. Ks. Mariana Góreckiego 6A",
-    "phone": "+48 512 089 798",
-    "instagram": "@baltycki_barber",
-    "instagramUrl": "https://ig.me/m/baltycki_barber",
-    "whatsappUrl": "https://wa.me/48512089798?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Baltycki+Barber+Gdansk+Goreckiego",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 18,
     "name": "Eklektyk Studio Barbershop",
     "address": "Wrzeszcz, ul. Miszewskiego 18/2",
     "phone": "+48 508 522 928",
@@ -273,10 +259,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 19,
+    "id": 18,
     "name": "Tekstura Gdańsk Studio",
     "address": "Wrzeszcz, al. Generała Józefa Hallera 57",
     "phone": "+48 730 341 344",
@@ -288,40 +275,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 20,
-    "name": "Fresh Cut № 1 Barbershop",
-    "address": "Śródmieście, ul. Podwale Staromiejskie 92",
-    "phone": "+48 794 735 905",
-    "instagram": "@freshcut_gdansk",
-    "instagramUrl": "https://ig.me/m/freshcut_gdansk",
-    "whatsappUrl": "https://wa.me/48794735905?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fresh+Cut+1+Barbershop+Gdansk+Podwale+Staromiejskie+92",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 21,
-    "name": "Fresh Cut № 2 Barbershop",
-    "address": "Główne Miasto, ul. Kuśnierska 100",
-    "phone": "+48 794 735 905",
-    "instagram": "@freshcut_gdansk",
-    "instagramUrl": "https://ig.me/m/freshcut_gdansk",
-    "whatsappUrl": "https://wa.me/48794735905?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Fresh+Cut+2+Barbershop+Gdansk+Kusnierska+100",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 22,
+    "id": 19,
     "name": "Street Cut Barbershop",
     "address": "Wrzeszcz, ul. Juliusza Słowackiego 4",
     "phone": "+48 794 616 667",
@@ -333,25 +291,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 23,
-    "name": "The Barbers House",
-    "address": "Jasień / Wrzeszcz, ul. Wajdeloty / Jasień",
-    "phone": "+48 735 636 303",
-    "instagram": "@thebarbers_pl",
-    "instagramUrl": "https://ig.me/m/thebarbers_pl",
-    "whatsappUrl": "https://wa.me/48735636303?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=The+Barbers+Gdansk+Wajdeloty",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 24,
+    "id": 20,
     "name": "Kultura Barbershop",
     "address": "Strzyża/Wrzeszcz, ul. Bracka 9",
     "phone": "+48 735 142 222",
@@ -363,10 +307,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 25,
+    "id": 21,
     "name": "LAS (Life After Shave)",
     "address": "Oliwa, ul. Bitwy Oliwskiej 39",
     "phone": "+48 737 180 228",
@@ -378,10 +323,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 26,
+    "id": 22,
     "name": "Boqobrody Fryzjer Męski",
     "address": "Śródmieście, ul. Garncarska 33",
     "phone": "+48 732 700 696",
@@ -393,10 +339,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 27,
+    "id": 23,
     "name": "BarberWave Przymorze",
     "address": "Przymorze, ul. Kołobrzeska 59D",
     "phone": "+48 788 747 269",
@@ -408,25 +355,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 28,
-    "name": "Gentlemen Barber Shop (Zaspa)",
-    "address": "Zaspa / Przymorze, al. Jana Pawła II 3A",
-    "phone": "+48 539 614 747",
-    "instagram": "@gentlemen.gdansk",
-    "instagramUrl": "https://ig.me/m/gentlemen.gdansk",
-    "whatsappUrl": "https://wa.me/48539614747?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gentlemen+Barber+Shop+Gdansk+Jana+Pawla",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 29,
+    "id": 24,
     "name": "Ostry Józek Barber",
     "address": "Zaspa (Rozstaje), ul. Kombatantów 4",
     "phone": "+48 791 202 505",
@@ -438,25 +371,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 30,
-    "name": "Grind Barbers",
-    "address": "Śródmieście, Stocznia / ul. Elektryków 6",
-    "phone": "+48 572 454 534",
-    "instagram": "@grind.barbers",
-    "instagramUrl": "https://ig.me/m/grind.barbers",
-    "whatsappUrl": "https://wa.me/48572454534?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Grind+Barbers+Gdansk+Stocznia",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 31,
+    "id": 25,
     "name": "Igor Barber Gdańsk",
     "address": "Wrzeszcz / Stocznia, al. Grunwaldzka 124",
     "phone": "+48 577 905 420",
@@ -468,10 +387,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 32,
+    "id": 26,
     "name": "Barba Nera (Morena)",
     "address": "Morena, ul. Piecewska 31 / Nałkowskiej 4",
     "phone": "+48 730 000 457",
@@ -483,10 +403,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 33,
+    "id": 27,
     "name": "Barba Nera (Jasień)",
     "address": "Jasień, ul. Rycerza Blizbora 15B",
     "phone": "+48 725 305 533",
@@ -498,10 +419,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 34,
+    "id": 28,
     "name": "Black Razor Barber (Chełm)",
     "address": "Chełm, Pasaż Chełmski (Cieszyńskiego 36/38)",
     "phone": "+48 511 350 360",
@@ -513,10 +435,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 35,
+    "id": 29,
     "name": "Black Razor Barber (Garnizon)",
     "address": "Wrzeszcz, Garnizon (ul. Białoszewskiego 10)",
     "phone": "+48 517 655 655",
@@ -528,10 +451,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 36,
+    "id": 30,
     "name": "Valentino BarberShop (Ujeścisko)",
     "address": "Ujeścisko, ul. Ostrołęcka 31a",
     "phone": "+48 667 676 047",
@@ -543,10 +467,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 37,
+    "id": 31,
     "name": "Valentino BarberShop (Jasień)",
     "address": "Jasień, ul. Krzysztofa Komedy 2",
     "phone": "+48 667 676 047",
@@ -558,10 +483,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 38,
+    "id": 32,
     "name": "Imperio Barber Jasień",
     "address": "Jasień, ul. Alfonsa Flisykowskiego 15 lok. 3",
     "phone": "+48 500 465 945",
@@ -573,10 +499,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 39,
+    "id": 33,
     "name": "Barbershop What's Up Bro",
     "address": "Morena, ul. Stanisława Lema 2",
     "phone": "+48 571 571 652",
@@ -588,10 +515,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 40,
+    "id": 34,
     "name": "Easy Barber",
     "address": "Wrzeszcz, ul. Sobótki 1/2",
     "phone": "+48 733 317 980",
@@ -603,10 +531,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 41,
+    "id": 35,
     "name": "Rich Barber (Wrzeszcz)",
     "address": "Wrzeszcz, al. Grunwaldzka 68",
     "phone": "+48 790 774 574",
@@ -618,10 +547,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 42,
+    "id": 36,
     "name": "Rich Barber (Żabianka)",
     "address": "Żabianka, ul. Subisława 27c",
     "phone": "+48 790 696 990",
@@ -633,10 +563,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 43,
+    "id": 37,
     "name": "UNOWO Salon Męski",
     "address": "Śródmieście / Marina, ul. Szafarnia 5/U7",
     "phone": "+48 884 000 538",
@@ -648,10 +579,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 44,
+    "id": 38,
     "name": "Men's Barber & Shop (Centrum)",
     "address": "Śródmieście, ul. Tartaczna 5",
     "phone": "+48 732 069 827",
@@ -663,10 +595,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 45,
+    "id": 39,
     "name": "Men's Barber & Shop (Wrzeszcz)",
     "address": "Wrzeszcz, ul. Waryńskiego 22/1",
     "phone": "+48 739 976 997",
@@ -678,10 +611,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 46,
+    "id": 40,
     "name": "Sztos Barber",
     "address": "Morena/Wrzeszcz, ul. Jaśkowa Dolina 132",
     "phone": "+48 514 082 459",
@@ -693,10 +627,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 47,
+    "id": 41,
     "name": "Old Skull Barber Osowa",
     "address": "Osowa, ul. Koziorożca 35/1",
     "phone": "+48 534 450 980",
@@ -708,10 +643,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 48,
+    "id": 42,
     "name": "Barbershop Osowa XXWiek",
     "address": "Osowa, ul. Koziorożca 33/11",
     "phone": "+48 692 497 470",
@@ -723,10 +659,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 49,
+    "id": 43,
     "name": "Studio Włosa M13 Fryzjer-Barber",
     "address": "Osowa, ul. Kielnieńska 99/13",
     "phone": "+48 799 026 206",
@@ -738,10 +675,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 50,
+    "id": 44,
     "name": "Męska Sprawa Barber Shop",
     "address": "Sopot, ul. Jacka Malczewskiego 6a",
     "phone": "+48 790 303 112",
@@ -753,10 +691,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 51,
+    "id": 45,
     "name": "Barber Lounge (Gdynia Starowiejska)",
     "address": "Gdynia, ul. Starowiejska 19",
     "phone": "+48 792 931 904",
@@ -768,10 +707,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 52,
+    "id": 46,
     "name": "Barber Lounge (Gdynia Zygmunta Augusta)",
     "address": "Gdynia, ul. Zygmunta Augusta 3a",
     "phone": "+48 791 091 062",
@@ -783,40 +723,11 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   },
   {
-    "id": 53,
-    "name": "Fire Barbershop Gdynia",
-    "address": "Gdynia, ul. Żołnierzy I Armii WP 1",
-    "phone": "+48 575 527 998",
-    "instagram": "@firebarber.pl",
-    "instagramUrl": "https://ig.me/m/firebarber.pl",
-    "whatsappUrl": "https://wa.me/48575527998?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Firebarber+Gdynia+Zolnierzy+I+Armii",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 54,
-    "name": "Gentlemen Barber Shop (Gdynia)",
-    "address": "Gdynia, ul. Obrońców Wybrzeża 6 (Plac Unii)",
-    "phone": "+48 695 469 642",
-    "instagram": "@gentlemen_gdynia",
-    "instagramUrl": "https://ig.me/m/gentlemen_gdynia",
-    "whatsappUrl": "https://wa.me/48695469642?text=Dzie%C5%84%20dobry!%20Z%20tej%20strony%20Daniil%20z%20Gda%C5%84ska%20(Overflow%20Web%2C%20https%3A%2F%2Foverflow-web.pl).%20Trafi%C5%82em%20na%20Wasz%20salon%20w%20Google%20Maps%20i%20na%20Booksy%20%E2%80%94%20robicie%20%C5%9Bwietn%C4%85%20robot%C4%99%20z%20ci%C4%99ciami!%0A%0AZauwa%C5%BCy%C5%82em%2C%20%C5%BCe%20nie%20macie%20w%C5%82asnej%20strony%20www%2C%20przez%20co%20cz%C4%99%C5%9B%C4%87%20klient%C3%B3w%20z%20wyszukiwarki%20mo%C5%BCe%20ucieka%C4%87.%20W%20ramach%20rozbudowy%20lokalnego%20portfolio%20przygotowa%C5%82em%20dla%20Was%20gotowy%2C%20dzia%C5%82aj%C4%85cy%20prototyp%20strony%20%E2%80%94%20z%20Waszym%20cennikiem%2C%20zespo%C5%82em%20i%20podpi%C4%99t%C4%85%20rezerwacj%C4%85%20Booksy%3A%0A%F0%9F%91%89%20https%3A%2F%2Fbarber-template-pi.vercel.app%2F%0A%0AZobaczcie%2C%20jak%20to%20wygl%C4%85da%20na%20telefonie.%20Je%C5%9Bli%20Wam%20si%C4%99%20podoba%20i%20chcieliby%C5%9Bcie%20uruchomi%C4%87%20t%C4%99%20stron%C4%99%20pod%20w%C5%82asn%C4%85%20domen%C4%85%20%E2%80%94%20ch%C4%99tnie%20wdro%C5%BC%C4%99%20j%C4%85%20dla%20Was%20za%20500%20z%C5%82%20jednorazowo%20(bez%20%C5%BCadnych%20abonament%C3%B3w%20i%20ukrytych%20koszt%C3%B3w).%0A%0ACo%20o%20tym%20my%C5%9Blicie%3F%20Ch%C4%99tnie%20us%C5%82ysz%C4%99%20Wasz%C4%85%20opini%C4%99!",
-    "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Gentlemen+Barber+Shop+Gdynia+Obroncow+Wybrzeza",
-    "landingUrl": "https://barber-template-pi.vercel.app/",
-    "status": "do_kontaktu",
-    "statusNote": "",
-    "lastContactDate": null,
-    "history": []
-  },
-  {
-    "id": 55,
+    "id": 47,
     "name": "Rasta Barber Gdynia",
     "address": "Gdynia, Centrum",
     "phone": "+48 539 614 747",
@@ -828,6 +739,7 @@
     "status": "do_kontaktu",
     "statusNote": "",
     "lastContactDate": null,
-    "history": []
+    "history": [],
+    "websiteVerified": false
   }
 ]
