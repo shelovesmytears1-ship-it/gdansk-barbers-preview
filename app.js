@@ -143,17 +143,38 @@ function render(data){
   var meta = document.querySelector('meta[name="description"]');
   if(meta && data.site.description) meta.content = String(data.site.description);
 
+  /* brand accent & theme */
+  if(data.brand && data.brand.accent){
+    document.documentElement.style.setProperty('--accent', data.brand.accent);
+    document.documentElement.style.setProperty('--line-focus', data.brand.accent);
+  }
+
   /* brand logo & name */
   var logoEl = document.querySelector('.logo');
   if(logoEl && data.brand && data.brand.name){
     var logoImg = data.brand.logoImg ? safeImg(data.brand.logoImg) : '';
     if(logoImg){
-      logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '" style="height:32px;width:auto;border-radius:4px;object-fit:cover;margin-right:10px;vertical-align:middle;display:inline-block"><span style="vertical-align:middle">' + escapeHTML(data.brand.name) + '</span>';
+      if(/\.svg$/i.test(logoImg)){
+        logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '">';
+      } else {
+        logoEl.innerHTML = '<img class="logo-img" src="' + escapeHTML(logoImg) + '" alt="' + escapeHTML(data.brand.name) + '" style="height:32px;width:auto;border-radius:4px;object-fit:cover;margin-right:10px;vertical-align:middle;display:inline-block"><span style="vertical-align:middle">' + escapeHTML(data.brand.name) + '</span>';
+      }
     } else {
       var parts = String(data.brand.name).split(/\s+/);
-      var first = parts[0] || '';
-      var rest = parts.slice(1).join(' ');
-      logoEl.innerHTML = '<span>' + escapeHTML(first) + '</span> ' + escapeHTML(rest);
+      var title = '';
+      var sub = '';
+      var dist = (data.site && data.site.district) ? data.site.district.toUpperCase() : '';
+      if(parts.length <= 2){
+        title = data.brand.name;
+        sub = dist ? 'BARBERSHOP • ' + dist : 'BARBERSHOP';
+      } else {
+        title = parts[0];
+        sub = parts.slice(1).join(' ') + (dist ? ' • ' + dist : '');
+      }
+      logoEl.innerHTML = '<div class="logo-lockup">' +
+        '<span class="logo-title">' + escapeHTML(title) + '</span>' +
+        '<span class="logo-sub">' + escapeHTML(sub) + '</span>' +
+        '</div>';
     }
   }
 
