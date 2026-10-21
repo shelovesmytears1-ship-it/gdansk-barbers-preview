@@ -4,8 +4,6 @@ import path from 'path';
 const baseDir = 'C:\\Users\\deppe\\Desktop\\working\\barber-template';
 const indexHtml = fs.readFileSync(path.join(baseDir, 'index.html'), 'utf-8');
 
-const defaultHeroImage = "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=1800&h=1200&fit=crop";
-
 const commonTrust = [
   { "icon": "scissors", "title": "Doświadczeni barberzy", "text": "Setki cięć w tygodniu, precyzja i zero pośpiechu." },
   { "icon": "package", "title": "Produkty premium", "text": "Tylko sprawdzone pomady, glinki i olejki do brody." },
@@ -88,18 +86,31 @@ const newSalons = [
           ]
         },
         {
-          name: "Broda & Pakiety Combo",
+          name: "Broda & Golenie",
+          items: [
+            { "name": "Modelowanie i strzyżenie brody", "desc": "Wyznaczenie linii zarostu, cieniowanie, brzytwa, balsam nawilżający.", "time": "35 min", "price": "70 zł", "bestseller": false },
+            { "name": "Tradycyjne golenie brzytwą", "desc": "Rytuał z gorącymi kompresami (Hot Towel), pianą i zimnym ręcznikiem.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Golenie głowy brzytwą", "desc": "Gładkie golenie skóry głowy na mokro z kompresem i pielęgnacją.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Korekcja konturu brody", "desc": "Szybkie odświeżenie linii zarostu brzytwą bez skracania długości.", "time": "20 min", "price": "50 zł", "bestseller": false }
+          ]
+        },
+        {
+          name: "Pakiety Combo & Detale",
           items: [
             { "name": "Pakiet Combo (Włosy + Broda)", "desc": "Kompleksowe strzyżenie głowy oraz pełne modelowanie brody z brzytwą.", "time": "1g 15min", "price": "150 zł", "bestseller": true },
-            { "name": "Modelowanie i strzyżenie brody", "desc": "Wyznaczenie linii zarostu, cieniowanie, brzytwa, balsam nawilżający.", "time": "35 min", "price": "70 zł", "bestseller": false },
-            { "name": "Tradycyjne golenie brzytwą (Hot Towel)", "desc": "Rytuał z gorącymi kompresami, pianą i zimnym ręcznikiem na koniec.", "time": "40 min", "price": "80 zł", "bestseller": false }
+            { "name": "Combo Skin Fade + Broda", "desc": "Maksymalnie precyzyjne przejście od zera i pełna oprawa brody.", "time": "1g 20min", "price": "160 zł", "bestseller": false },
+            { "name": "Depilacja woskiem (nos / uszy)", "desc": "Szybkie i bezbolesne usunięcie zbędnych włosków woskiem na gorąco.", "time": "15 min", "price": "25 zł", "bestseller": false },
+            { "name": "Odsiwianie brody / tonowanie", "desc": "Dyskretne zatuszowanie siwych włosów z naturalnym efektem.", "time": "30 min", "price": "60 zł", "bestseller": false }
           ]
         }
       ],
       note: "Płatność kartą, BLIK oraz gotówką. Bezpośrednia rezerwacja w Booksy."
     },
     team: [
-      { "name": "Zespół Easy Barber", "role": "Master Barbers Wrzeszcz", "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&h=500&fit=crop", "exp": "Tradycyjne Rzemiosło", "ig": "https://instagram.com/easybarber.gdansk" }
+      { "name": "Alex", "role": "Master Barber", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Mistrz Fade & Geometria", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Max", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Klasyczne Nożyczki", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Witek", "role": "Barber & Beard Specialist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Daniel", "role": "Barber & Stylist", "photo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500&h=500&fit=crop", "exp": "Nowoczesny Styling", "ig": "https://instagram.com/easybarber.gdansk" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=800&fit=crop", "alt": "Easy Barber Gdańsk Salon", "cap": "Salon" },
@@ -182,26 +193,39 @@ const newSalons = [
       title: "Autorskie podejście i rzetelna wycena",
       groups: [
         {
-          name: "Strzyżenie Włosów",
+          name: "Cięcia Męskie & Fade",
           items: [
             { "name": "Strzyżenie męskie autorskie", "desc": "Konsultacja, mycie, precyzyjne cięcie dopasowane do rysów twarzy i stylu.", "time": "50 min", "price": "110 zł", "bestseller": true },
             { "name": "Skin Fade / Taper Fade", "desc": "Ekstremalnie gładkie przejście od zera i perfekcyjne wykończenie karku.", "time": "50 min", "price": "120 zł", "bestseller": false },
-            { "name": "Cięcie alternatywne (Mullet / Mod)", "desc": "Dłuższe tekstury, autorskie cięcie nożyczkami i stylizacja sprayem solnym.", "time": "60 min", "price": "130 zł", "bestseller": false }
+            { "name": "Cięcie alternatywne (Mullet / Mod)", "desc": "Dłuższe tekstury, autorskie cięcie nożyczkami i stylizacja sprayem solnym.", "time": "60 min", "price": "130 zł", "bestseller": false },
+            { "name": "Buzz Cut & Kontur brzytwą", "desc": "Krótkie, ostre cięcie maszynką z dopracowaniem linii karku i czoła.", "time": "30 min", "price": "70 zł", "bestseller": false }
           ]
         },
         {
-          name: "Broda & Combo",
+          name: "Stylizacja Brody",
+          items: [
+            { "name": "Pełne strzyżenie i modelowanie brody", "desc": "Konturowanie, cieniowanie policzków, brzytwa, olejek i balsam.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Rytuał golenia brzytwą (Hot Towel)", "desc": "Tradycyjne golenie z gorącymi kompresami, olejkiem pre-shave i ałunem.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Korekta linii zarostu", "desc": "Szybkie odświeżenie samych konturów brzytwą bez skracania masy brody.", "time": "20 min", "price": "50 zł", "bestseller": false },
+            { "name": "Pielęgnacja brody & sauna parowa", "desc": "Głębokie odżywienie zarostu i skóry twarzy specjalistycznym olejkiem.", "time": "30 min", "price": "60 zł", "bestseller": false }
+          ]
+        },
+        {
+          name: "Pakiety Combo & Kolor",
           items: [
             { "name": "Combo (Włosy + Broda)", "desc": "Pełna metamorfoza: autorskie strzyżenie oraz kompleksowa stylizacja zarostu.", "time": "1g 20min", "price": "160 zł", "bestseller": true },
-            { "name": "Stylizacja i strzyżenie brody", "desc": "Konturowanie, cieniowanie policzków, olejek i balsam nawilżający.", "time": "40 min", "price": "80 zł", "bestseller": false },
-            { "name": "Odsiwianie brody / tonowanie", "desc": "Subtelne ukrycie siwizny bez sztucznego efektu farbowania.", "time": "30 min", "price": "70 zł", "bestseller": false }
+            { "name": "Combo Skin Fade + Broda", "desc": "Maksymalny kontrast: skin fade od zera oraz dopracowana linia brody.", "time": "1g 30min", "price": "180 zł", "bestseller": false },
+            { "name": "Odsiwianie brody / tonowanie", "desc": "Subtelne ukrycie siwizny bez sztucznego efektu farbowania.", "time": "30 min", "price": "70 zł", "bestseller": false },
+            { "name": "Depilacja woskiem nos / uszy", "desc": "Precyzyjne oczyszczenie woskiem na gorąco.", "time": "15 min", "price": "30 zł", "bestseller": false }
           ]
         }
       ],
       note: "Płatność kartą, BLIK oraz gotówką. Rezerwacje 24/7 przez Booksy."
     },
     team: [
-      { "name": "Team Burda", "role": "Twórcy stylu & edukatorzy", "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop", "exp": "Kreatywność & Precyzja", "ig": "https://instagram.com/burda_barbershop" }
+      { "name": "Kamil", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Mullet & Alternatywa", "ig": "https://instagram.com/burda_barbershop" },
+      { "name": "Oskar", "role": "Barber — Fade Specialist", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Precyzja Geometrii", "ig": "https://instagram.com/burda_barbershop" },
+      { "name": "Igor", "role": "Barber & Broda", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/burda_barbershop" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=800&fit=crop", "alt": "BURDA Gdańsk Ogarna", "cap": "Salon" },
@@ -234,7 +258,7 @@ const newSalons = [
       district: "Stare Miasto",
       title: "DANZIGER BARBER Gdańsk — Męskie Strzyżenie & Pielęgnacja Brody",
       description: "DANZIGER BARBER Gdańsk — ul. Angielska Grobla 32. Taper fade, golenie brzytwą, combo. Indywidualne podejście, ocena 5.0★ na Booksy.",
-      bookingUrl: "https://booksy.com/pl-pl/148689_easy-barber-gdansk-wrzeszcz_barber-shop_31484_gdansk", // fallback, updated in loop
+      bookingUrl: "https://instagram.com/danzigerbarber",
       bookingProvider: "booksy"
     },
     brand: {
@@ -287,21 +311,41 @@ const newSalons = [
           items: [
             { "name": "Strzyżenie męskie klasyczne", "desc": "Precyzyjne nożyczki i maszynka, mycie głowy oraz ułożenie fryzury.", "time": "45 min", "price": "100 zł", "bestseller": false },
             { "name": "Taper Fade / Crop Cut", "desc": "Nowoczesne cięcie z cieniowaniem skroni i karku. Czysty, ostry kontur.", "time": "50 min", "price": "110 zł", "bestseller": true },
-            { "name": "Golenie głowy brzytwą", "desc": "Gładkie golenie skóry głowy na mokro z kompresem i pielęgnacją.", "time": "40 min", "price": "80 zł", "bestseller": false }
+            { "name": "Golenie głowy brzytwą", "desc": "Gładkie golenie skóry głowy na mokro z kompresem i pielęgnacją.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Strzyżenie maszynką na jedną długość", "desc": "Równe cięcie z dopracowaniem konturu szyi.", "time": "30 min", "price": "60 zł", "bestseller": false }
           ]
         },
         {
-          name: "Broda & Combo",
+          name: "Broda & Golenie Brzytwą",
+          items: [
+            { "name": "Stylizacja i trymowanie brody", "desc": "Kształt dopasowany do linii żuchwy, cieniowanie, odżywczy olejek.", "time": "35 min", "price": "70 zł", "bestseller": false },
+            { "name": "Rytuał tradycyjnego golenia", "desc": "Golenie na gładko brzytwą z ciepłym kompresem i balsamem po goleniu.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Korekta krawędzi zarostu", "desc": "Precyzyjne wyznaczenie ostrych linii policzków i szyi.", "time": "20 min", "price": "45 zł", "bestseller": false },
+            { "name": "Spa brody & regeneracja", "desc": "Maska odżywcza, gorący ręcznik i czesanie szczotką z dzika.", "time": "25 min", "price": "50 zł", "bestseller": false }
+          ]
+        },
+        {
+          name: "Pakiety Combo & Detale",
           items: [
             { "name": "Combo (Włosy + Broda)", "desc": "Pełen pakiet stylizacji włosów i precyzyjnego wyrównania brody brzytwą.", "time": "1g 15min", "price": "150 zł", "bestseller": true },
-            { "name": "Stylizacja i trymowanie brody", "desc": "Kształt dopasowany do linii żuchwy, cieniowanie, odżywczy olejek.", "time": "35 min", "price": "70 zł", "bestseller": false }
+            { "name": "Combo Taper Fade + Broda", "desc": "Idealna harmonia: wycieniowane boki i perfekcyjnie zarysowana broda.", "time": "1g 20min", "price": "160 zł", "bestseller": false },
+            { "name": "Woskowanie nos / uszy", "desc": "Szybka estetyczna korekta zbędnych włosków.", "time": "15 min", "price": "25 zł", "bestseller": false },
+            { "name": "Tuszowanie siwizny", "desc": "Dyskretna koloryzacja kamuflująca pierwsze siwe włosy.", "time": "30 min", "price": "60 zł", "bestseller": false }
           ]
         }
       ],
       note: "Płatność kartą, BLIK oraz gotówką. Zapisy online przez Booksy."
     },
+    // SOLO MASTER SPOTLIGHT!
     team: [
-      { "name": "Daniel Wojnowski", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Mistrz Detalu", "ig": "https://instagram.com/danzigerbarber" }
+      {
+        name: "Daniel Wojnowski",
+        role: "Master Barber & Założyciel",
+        photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=900&fit=crop",
+        exp: "Mistrz Detalu & Brzytwy",
+        bio: "Ponad 8 lat doświadczenia w precyzyjnym fryzjerstwie męskim. Angielska Grobla 32 to kameralne, niezależne studio nad Motławą — bez pośpiechu, bez hałasu i bez taśmy produkcyjnej. Każda wizyta to 100% mojej uwagi dedykowanej jednej osobie.",
+        ig: "https://instagram.com/danzigerbarber"
+      }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Danziger Barber Studio", "cap": "Studio" },
@@ -334,7 +378,7 @@ const newSalons = [
       district: "Oliwa",
       title: "Bones Barber Gdańsk Oliwa — Mistrzowski Fade & Stylizacja Brody",
       description: "Bones Barber Gdańsk Oliwa — ul. Polanki 83. Mocna kawa, luźny klimat, perfekcyjny fade. Ponad 1000 opinii 5.0★ na Booksy.",
-      bookingUrl: "https://booksy.com/pl-pl/148689_easy-barber-gdansk-wrzeszcz_barber-shop_31484_gdansk", // updated in code
+      bookingUrl: "https://instagram.com/bones_barber_",
       bookingProvider: "booksy"
     },
     brand: {
@@ -383,26 +427,39 @@ const newSalons = [
       title: "Uczciwe stawki za rzemiosło na najwyższym poziomie",
       groups: [
         {
-          name: "Strzyżenie Włosów",
+          name: "Włosy & Fade",
           items: [
             { "name": "Strzyżenie męskie (Classic / Fade)", "desc": "Cięcie nożyczkami i maszynką, mycie głowy, stylizacja matową pomadą.", "time": "45 min", "price": "100 zł", "bestseller": true },
             { "name": "Skin Fade od zera", "desc": "Precyzyjne cieniowanie golarką foliową i brzytwą. Idealne przejście.", "time": "50 min", "price": "110 zł", "bestseller": false },
-            { "name": "Strzyżenie maszynką (Buzz Cut)", "desc": "Szybkie, równe cięcie maszynką z dopracowaniem karku i baczków.", "time": "30 min", "price": "70 zł", "bestseller": false }
+            { "name": "Strzyżenie maszynką (Buzz Cut)", "desc": "Szybkie, równe cięcie maszynką z dopracowaniem karku i baczków.", "time": "30 min", "price": "70 zł", "bestseller": false },
+            { "name": "Stylizacja włosów & mycie", "desc": "Odświeżenie fryzury kosmetykami niszowych marek.", "time": "20 min", "price": "40 zł", "bestseller": false }
           ]
         },
         {
-          name: "Broda & Combo",
+          name: "Broda & Brzytwa",
+          items: [
+            { "name": "Pielęgnacja i strzyżenie brody", "desc": "Nadanie kształtu nożyczkami i maszynką, podgolenie brzytwą, olejek.", "time": "35 min", "price": "80 zł", "bestseller": false },
+            { "name": "Golenie głowy na gładko brzytwą", "desc": "Czyste cięcie brzytwą na mokro z kojącym balsamem.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Konturowanie zarostu", "desc": "Precyzyjna linia policzków i szyi wykończona brzytwą.", "time": "20 min", "price": "50 zł", "bestseller": false },
+            { "name": "Regeneracja brody gorącym ręcznikiem", "desc": "Głębokie nawilżenie zarostu pod kompresem.", "time": "25 min", "price": "50 zł", "bestseller": false }
+          ]
+        },
+        {
+          name: "Pakiety Combo & Detale",
           items: [
             { "name": "Pakiet Combo (Włosy + Broda)", "desc": "Kompleksowa usługa: pełne strzyżenie oraz trymowanie i konturowanie brody.", "time": "1g 15min", "price": "150 zł", "bestseller": true },
-            { "name": "Pielęgnacja i strzyżenie brody", "desc": "Nadanie kształtu nożyczkami i maszynką, podgolenie brzytwą, olejek.", "time": "35 min", "price": "80 zł", "bestseller": false },
-            { "name": "Depilacja woskiem (nos / uszy)", "desc": "Szybkie i bezbolesne usunięcie zbędnych włosków.", "time": "15 min", "price": "30 zł", "bestseller": false }
+            { "name": "Combo Fade + Broda + Wosk", "desc": "Pełen pakiet męskiej pielęgnacji w jednym fotelu.", "time": "1g 25min", "price": "170 zł", "bestseller": false },
+            { "name": "Depilacja woskiem (nos / uszy)", "desc": "Szybkie i bezbolesne usunięcie zbędnych włosków.", "time": "15 min", "price": "30 zł", "bestseller": false },
+            { "name": "Tuszowanie siwizny brody", "desc": "Naturalny odcień bez sztucznego efektu.", "time": "30 min", "price": "60 zł", "bestseller": false }
           ]
         }
       ],
       note: "Płatność kartą, BLIK i gotówką. Zapisy przez Booksy lub DM."
     },
     team: [
-      { "name": "Ekipa Bones Barber", "role": "Barberzy Oliwa", "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&h=500&fit=crop", "exp": "Pasja i Fade", "ig": "https://instagram.com/bones_barber_" }
+      { "name": "Norman", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "1000+ Opinii 5.0★", "ig": "https://instagram.com/bones_barber_" },
+      { "name": "Szymon", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Mistrz Skin Fade", "ig": "https://instagram.com/bones_barber_" },
+      { "name": "Patryk", "role": "Barber — Beard Stylist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rzemiosło Brzytwy", "ig": "https://instagram.com/bones_barber_" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Bones Barber Gdańsk", "cap": "Salon" },
@@ -484,26 +541,39 @@ const newSalons = [
       title: "Tradycyjna jakość i uczciwe ceny z Booksy",
       groups: [
         {
-          name: "Włosy & Strzyżenie",
+          name: "Klasyka & Fade",
           items: [
             { "name": "Strzyżenie męskie", "desc": "Klasyczne cięcie nożyczkami i maszynką, mycie głowy oraz stylizacja fryzury.", "time": "45 min", "price": "100 zł", "bestseller": false },
             { "name": "Skin Fade / Cieniowanie", "desc": "Płynne przejście od zera dopasowane do kształtu głowy.", "time": "45 min", "price": "110 zł", "bestseller": true },
             { "name": "Strzyżenie maszynką", "desc": "Jednolita długość maszynką, wykończenie linii karku brzytwą.", "time": "30 min", "price": "60 zł", "bestseller": false },
-            { "name": "Combo Ojciec i Syn", "desc": "Dwa stanowiska i męski czas dla taty z synem.", "time": "1g 30min", "price": "170 zł", "bestseller": false }
+            { "name": "Strzyżenie nożyczkami (Long Hair)", "desc": "Cięcie dłuższych włosów z zachowaniem naturalnego układania.", "time": "50 min", "price": "120 zł", "bestseller": false }
           ]
         },
         {
-          name: "Broda & Combo",
+          name: "Broda & Trymowanie",
+          items: [
+            { "name": "Trymowanie i modelowanie brody", "desc": "Skracanie, nadanie konturu brzytwą, gorący ręcznik i olejek.", "time": "35 min", "price": "80 zł", "bestseller": false },
+            { "name": "Rytuał golenia brzytwą", "desc": "Gładkie golenie na mokro z ciepłym kompresem i odświeżającą wodą po goleniu.", "time": "40 min", "price": "80 zł", "bestseller": false },
+            { "name": "Korekta samych linii zarostu", "desc": "Ostre wyznaczenie krawędzi brody brzytwą.", "time": "20 min", "price": "50 zł", "bestseller": false },
+            { "name": "Pielęgnacja brody z balsamem", "desc": "Zmiękczenie twardego zarostu i odżywienie skóry twarzy.", "time": "20 min", "price": "40 zł", "bestseller": false }
+          ]
+        },
+        {
+          name: "Pakiety & Ojciec i Syn",
           items: [
             { "name": "Combo (Włosy + Broda)", "desc": "Strzyżenie męskie połączone z pełnym trymowaniem i konturowaniem brody.", "time": "1g 15min", "price": "140 zł", "bestseller": true },
-            { "name": "Trymowanie i modelowanie brody", "desc": "Skracanie, nadanie konturu brzytwą, gorący ręcznik i olejek.", "time": "35 min", "price": "80 zł", "bestseller": false }
+            { "name": "Combo Ojciec i Syn", "desc": "Dwa stanowiska obok siebie i męski czas dla taty z synem.", "time": "1g 30min", "price": "170 zł", "bestseller": false },
+            { "name": "Strzyżenie Dziecka (do 10 lat)", "desc": "Cierpliwe, bezstresowe podejście w przyjaznym klimacie.", "time": "35 min", "price": "75 zł", "bestseller": false },
+            { "name": "Woskowanie uszy / nos", "desc": "Szybka eliminacja niechcianych włosków.", "time": "15 min", "price": "25 zł", "bestseller": false }
           ]
         }
       ],
       note: "Płatność kartą, BLIK oraz gotówką. Rezerwacja online 24/7."
     },
     team: [
-      { "name": "Ekipa Stary Barber", "role": "Klasyczni Barberzy", "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500&h=500&fit=crop", "exp": "Tradycja Przymorza", "ig": "https://instagram.com/starybarbershop" }
+      { "name": "Piotr", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Tradycja Przymorza", "ig": "https://instagram.com/starybarbershop" },
+      { "name": "Tomasz", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Mistrz Nożyczek", "ig": "https://instagram.com/starybarbershop" },
+      { "name": "Marek", "role": "Barber — Beard Specialist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Tradycyjne Golenie", "ig": "https://instagram.com/starybarbershop" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Stary Barber Shop Falowiec", "cap": "Salon" },
@@ -613,10 +683,12 @@ newSalons.forEach(salon => {
   html = html.replace(/<h2 class="h2" id="cennik-title">.*?<\/h2>/i, `<h2 class="h2" id="cennik-title">${salon.cennik.title}</h2>`);
   html = html.replace(/id="cennik-cta" href="[^"]*"/i, `id="cennik-cta" href="${salon.site.bookingUrl}"`);
 
-  // Pre-bake cennik groups
+  // Pre-bake cennik groups (3 balanced columns filling container)
   const staticCennikHtml = salon.cennik.groups.map(g => `
     <div class="cennik-group">
-      <h3 class="cennik-group-title">${g.name}</h3>
+      <div class="cennik-group-head">
+        <h3>${g.name}</h3>
+      </div>
       <div class="cennik-list">
         ${g.items.map(it => `
           <div class="cennik-item ${it.bestseller ? 'bestseller' : ''}">
@@ -634,7 +706,55 @@ newSalons.forEach(salon => {
       </div>
     </div>
   `).join('');
-  html = html.replace(/<div class="cennik-groups" id="cennik-groups"><\/div>/i, `<div class="cennik-groups" id="cennik-groups">${staticCennikHtml}</div>`);
+  html = html.replace(/<div class="cennik-wrap" id="cennik-wrap"><\/div>/i, `<div class="cennik-wrap" id="cennik-wrap">${staticCennikHtml}</div>`);
+
+  // Team section: Pre-bake statically!
+  // If solo master (length === 1), bake master-spotlight!
+  // If team (> 1), bake team-cards!
+  if (salon.team.length === 1) {
+    const m = salon.team[0];
+    const staticMasterHtml = `
+      <div class="master-spotlight" id="team-grid">
+        <div class="master-spotlight-photo">
+          <img src="${m.photo}" alt="${m.name}" loading="lazy">
+          <span class="master-spotlight-badge">${m.exp || 'Master Barber'}</span>
+        </div>
+        <div class="master-spotlight-info">
+          <div class="master-spotlight-tag">Indywidualne studio • 1 na 1</div>
+          <h3 class="master-spotlight-name">${m.name}</h3>
+          <div class="master-spotlight-role">${m.role}</div>
+          <p class="master-spotlight-bio">${m.bio || 'Każda wizyta to 100% uwagi poświęconej jednemu klientowi. Zero pośpiechu, zero taśmy produkcyjnej — precyzja geometrii, autorskie cięcia i rzemiosło na najwyższym poziomie.'}</p>
+          <div class="master-spotlight-points">
+            <div class="master-point"><i data-lucide="scissors" aria-hidden="true"></i><span>Precyzja nożyczek i maszynki</span></div>
+            <div class="master-point"><i data-lucide="shield-check" aria-hidden="true"></i><span>100% higieny i sterylne brzytwy</span></div>
+            <div class="master-point"><i data-lucide="coffee" aria-hidden="true"></i><span>Świeża kawa przed cięciem</span></div>
+            <div class="master-point"><i data-lucide="sparkles" aria-hidden="true"></i><span>Niszowe kosmetyki do brody</span></div>
+          </div>
+          <div class="master-spotlight-actions">
+            <a class="btn btn-primary" href="${salon.site.bookingUrl}">Zarezerwuj u ${m.name.split(' ')[0]} →</a>
+            ${m.ig ? `<a class="btn btn-secondary" href="${m.ig}" target="_blank" rel="noopener">Zobacz Instagram</a>` : ''}
+          </div>
+        </div>
+      </div>
+    `;
+    html = html.replace(/<div class="team-grid" id="team-grid"><\/div>/i, staticMasterHtml);
+    html = html.replace(/<h2 class="h2">Twoi barberzy<\/h2>/i, `<h2 class="h2">Mistrz & Założyciel</h2>`);
+  } else {
+    const staticTeamCards = salon.team.map(m => `
+      <div class="team-card">
+        <div class="team-photo-wrap">
+          <img src="${m.photo}" alt="${m.name}" loading="lazy">
+        </div>
+        <div class="team-body">
+          <h3>${m.name}</h3>
+          <div class="role">${m.role}</div>
+          <div class="exp">${m.exp} ${m.ig ? `• <a class="team-ig" href="${m.ig}" target="_blank" rel="noopener">Instagram</a>` : ''}</div>
+          <a class="team-book-btn" href="${salon.site.bookingUrl}" target="_blank" rel="noopener">Rezerwuj u ${m.name} →</a>
+        </div>
+      </div>
+    `).join('');
+    html = html.replace(/<div class="team-grid" id="team-grid"><\/div>/i, `<div class="team-grid" id="team-grid">${staticTeamCards}</div>`);
+  }
 
   // Contact section
   html = html.replace(/<h2 class="h2">Znajdziesz nas na Kazimierzu<\/h2>/i, `<h2 class="h2">Znajdziesz nas: ${salon.site.city} (${salon.site.district})</h2>`);
@@ -693,12 +813,12 @@ newSalons.forEach(salon => {
   html = html.replace(/<meta property="og:image" content=".*?"\s*\/?>/i, `<meta property="og:image" content="${salon.hero.image}">`);
 
   // Script injection right before </body>
-  const scriptInjection = `<script>window.__SALON_DATA__ = ${JSON.stringify(salon)};</script>\n<script src="./app.js?v=12"></script>`;
+  const scriptInjection = `<script>window.__SALON_DATA__ = ${JSON.stringify(salon)};</script>\n<script src="./app.js?v=13"></script>`;
   html = html.replace(/<script src="\.\/app\.js\?v=\d+"[^>]*><\/script>/i, scriptInjection);
 
   const htmlPath = path.join(baseDir, salon.htmlName);
   fs.writeFileSync(htmlPath, html, 'utf-8');
-  console.log(`Generated: ${salon.htmlName}`);
+  console.log(`Generated upgraded: ${salon.htmlName}`);
 });
 
-console.log('All 5 new salon prototypes successfully built!');
+console.log('All 5 upgraded salon prototypes successfully generated!');

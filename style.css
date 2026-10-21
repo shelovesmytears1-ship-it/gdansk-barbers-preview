@@ -575,8 +575,9 @@ img{display:block;max-width:100%}
 .cennik-wrap{
   margin-top:var(--space-12);
   display:grid;
-  grid-template-columns:repeat(3, 1fr);
+  grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
   gap:var(--space-6);
+  width:100%;
 }
 @media(max-width:960px){ .cennik-wrap{grid-template-columns:1fr} }
 .cennik-group{
@@ -586,9 +587,12 @@ img{display:block;max-width:100%}
   padding:var(--space-6);
   display:flex;
   flex-direction:column;
-  transition:border-color var(--dur-2) var(--ease);
+  transition:border-color var(--dur-2) var(--ease), transform var(--dur-2) var(--ease);
 }
-.cennik-group:hover{border-color:var(--line-light)}
+.cennik-group:hover{
+  border-color:var(--line-light);
+  transform:translateY(-2px);
+}
 .cennik-group-head{
   padding-bottom:var(--space-4);
   border-bottom:1px solid var(--line);
@@ -692,7 +696,7 @@ img{display:block;max-width:100%}
    ========================================================================== */
 .team-grid{
   display:grid;
-  grid-template-columns:repeat(3,1fr);
+  grid-template-columns:repeat(auto-fit, minmax(260px, 1fr));
   gap:var(--space-6);
   margin-top:var(--space-12);
 }
@@ -724,6 +728,125 @@ img{display:block;max-width:100%}
   object-fit:cover;
   object-position:center 20%;
   filter:contrast(1.05) brightness(0.95);
+  transition:transform var(--dur-3) var(--ease);
+}
+.team-card:hover .team-photo-wrap img{
+  transform:scale(1.03);
+}
+
+/* Master Spotlight (For solo master / founder studio) */
+.master-spotlight{
+  display:grid;
+  grid-template-columns:360px 1fr;
+  gap:var(--space-8);
+  align-items:center;
+  background:var(--surface);
+  border:1px solid var(--line);
+  border-radius:var(--radius-lg);
+  padding:var(--space-8);
+  margin-top:var(--space-10);
+  transition:border-color var(--dur-2) var(--ease);
+}
+.master-spotlight:hover{
+  border-color:var(--line-light);
+}
+@media(max-width:850px){
+  .master-spotlight{
+    grid-template-columns:1fr;
+    padding:var(--space-6);
+    gap:var(--space-6);
+  }
+}
+.master-spotlight-photo{
+  position:relative;
+  width:100%;
+  aspect-ratio:1/1.15;
+  border-radius:var(--radius-md);
+  overflow:hidden;
+  border:1px solid var(--line);
+}
+.master-spotlight-photo img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:center 20%;
+  filter:contrast(1.05);
+}
+.master-spotlight-badge{
+  position:absolute;
+  bottom:var(--space-3);
+  left:var(--space-3);
+  background:rgba(10,10,12,0.85);
+  border:1px solid var(--accent);
+  color:var(--accent);
+  padding:4px 10px;
+  font-family:var(--font-mono);
+  font-size:11px;
+  text-transform:uppercase;
+  letter-spacing:0.08em;
+  border-radius:var(--radius-sm);
+}
+.master-spotlight-info{
+  display:flex;
+  flex-direction:column;
+  gap:var(--space-3);
+}
+.master-spotlight-tag{
+  font-family:var(--font-mono);
+  font-size:12px;
+  letter-spacing:var(--tracking-wide);
+  color:var(--accent);
+  text-transform:uppercase;
+}
+.master-spotlight-name{
+  font-family:var(--font-display-cond);
+  font-size:32px;
+  font-weight:700;
+  text-transform:uppercase;
+  color:var(--ink-inv);
+  line-height:1.1;
+}
+.master-spotlight-role{
+  font-family:var(--font-sans);
+  font-size:16px;
+  color:var(--muted);
+}
+.master-spotlight-bio{
+  font-family:var(--font-sans);
+  font-size:15px;
+  line-height:1.65;
+  color:var(--ink-inv);
+  opacity:0.85;
+}
+.master-spotlight-points{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:var(--space-3);
+  margin-top:var(--space-2);
+}
+@media(max-width:550px){
+  .master-spotlight-points{ grid-template-columns:1fr; }
+}
+.master-point{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  font-size:14px;
+  color:var(--muted);
+}
+.master-point i{
+  color:var(--accent);
+  width:16px;
+  height:16px;
+  flex-shrink:0;
+}
+.master-spotlight-actions{
+  margin-top:var(--space-3);
+  display:flex;
+  gap:var(--space-4);
+  align-items:center;
+  flex-wrap:wrap;
+}
   transition:transform var(--dur-3) var(--ease), filter var(--dur-3) var(--ease);
 }
 .team-card:hover .team-photo-wrap img{

@@ -302,19 +302,48 @@ function render(data){
   var tg = document.getElementById('team-grid');
   if(tg && Array.isArray(data.team)){
     var bookUrl = safeUrl(data.site.bookingUrl, '');
-    tg.innerHTML = data.team.map(function(m){
+    if(data.team.length === 1){
+      var m = data.team[0];
       var photo = safeImg(m.photo);
       var ig = safeUrl(m.ig, '');
-      return '<div class="team-card">' +
-        (photo ? '<div class="team-photo-wrap"><img src="' + escapeHTML(photo) + '" alt="' + escapeHTML(m.name || 'Barber') + '" loading="lazy" onerror="this.style.display=\'none\'"></div>' : '') +
-        '<div class="team-body">' +
-        '<h3>' + escapeHTML(m.name) + '</h3>' +
-        '<div class="role">' + escapeHTML(m.role) + '</div>' +
-        '<div class="exp">' + escapeHTML(m.exp || '') +
-        (ig ? ' • <a class="team-ig" href="' + escapeHTML(ig) + '" target="_blank" rel="noopener">Instagram</a>' : '') + '</div>' +
-        (bookUrl ? '<a class="team-book-btn" href="' + escapeHTML(bookUrl) + '" target="_blank" rel="noopener">Rezerwuj u ' + escapeHTML(m.name) + ' →</a>' : '') +
-        '</div></div>';
-    }).join('');
+      tg.className = 'master-spotlight';
+      tg.innerHTML = 
+        (photo ? '<div class="master-spotlight-photo"><img src="' + escapeHTML(photo) + '" alt="' + escapeHTML(m.name || 'Master Barber') + '" loading="lazy"><span class="master-spotlight-badge">' + escapeHTML(m.exp || 'Mistrz Brzytwy & Fade') + '</span></div>' : '') +
+        '<div class="master-spotlight-info">' +
+          '<div class="master-spotlight-tag">Indywidualne studio • 1 na 1</div>' +
+          '<h3 class="master-spotlight-name">' + escapeHTML(m.name) + '</h3>' +
+          '<div class="master-spotlight-role">' + escapeHTML(m.role) + '</div>' +
+          '<p class="master-spotlight-bio">' + escapeHTML(m.bio || 'Każda wizyta to 100% uwagi poświęconej jednemu klientowi. Zero pośpiechu, zero taśmy produkcyjnej — precyzja geometrii, autorskie cięcia i rzemiosło na najwyższym poziomie.') + '</p>' +
+          '<div class="master-spotlight-points">' +
+            '<div class="master-point"><i data-lucide="scissors"></i><span>Precyzja nożyczek i maszynki</span></div>' +
+            '<div class="master-point"><i data-lucide="shield-check"></i><span>100% higieny i sterylne brzytwy</span></div>' +
+            '<div class="master-point"><i data-lucide="coffee"></i><span>Świeża kawa przed cięciem</span></div>' +
+            '<div class="master-point"><i data-lucide="sparkles"></i><span>Niszowe kosmetyki do brody</span></div>' +
+          '</div>' +
+          '<div class="master-spotlight-actions">' +
+            (bookUrl ? '<a class="btn btn-primary" href="' + escapeHTML(bookUrl) + '">Zarezerwuj u ' + escapeHTML((m.name||'').split(' ')[0]) + ' →</a>' : '') +
+            (ig ? '<a class="btn btn-secondary" href="' + escapeHTML(ig) + '" target="_blank" rel="noopener">Zobacz Instagram</a>' : '') +
+          '</div>' +
+        '</div>';
+      if(window.lucide && typeof window.lucide.createIcons === 'function'){
+        window.lucide.createIcons();
+      }
+    } else {
+      tg.className = 'team-grid';
+      tg.innerHTML = data.team.map(function(m){
+        var photo = safeImg(m.photo);
+        var ig = safeUrl(m.ig, '');
+        return '<div class="team-card">' +
+          (photo ? '<div class="team-photo-wrap"><img src="' + escapeHTML(photo) + '" alt="' + escapeHTML(m.name || 'Barber') + '" loading="lazy" onerror="this.style.display=\'none\'"></div>' : '') +
+          '<div class="team-body">' +
+          '<h3>' + escapeHTML(m.name) + '</h3>' +
+          '<div class="role">' + escapeHTML(m.role) + '</div>' +
+          '<div class="exp">' + escapeHTML(m.exp || '') +
+          (ig ? ' • <a class="team-ig" href="' + escapeHTML(ig) + '" target="_blank" rel="noopener">Instagram</a>' : '') + '</div>' +
+          (bookUrl ? '<a class="team-book-btn" href="' + escapeHTML(bookUrl) + '" target="_blank" rel="noopener">Rezerwuj u ' + escapeHTML(m.name) + ' →</a>' : '') +
+          '</div></div>';
+      }).join('');
+    }
   }
 
   /* gallery — interactive sticky-active-accordion (site-motion-recipes) */
