@@ -118,7 +118,7 @@ const newSalons = [
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo Włosy i Broda", "cap": "Combo Pakiet" },
       { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Trymowanie Brody", "cap": "Kontur Brody" },
       { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Golenie Brzytwą", "cap": "Golenie Brzytwą" },
-      { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Stylizacja Włosów", "cap": "Styling & Finish" }
+      { "src": "./img/easybarber-cut6.jpg", "alt": "Stylizacja Włosów", "cap": "Styling & Finish" }
     ],
     reviews: [
       { "name": "Tomasz K.", "stars": 5, "date": "2026-09", "text": "Najlepsze przejście we Wrzeszczu. Szybko, punktualnie i z pełną klasą. Polecam!", "href": "https://maps.google.com/" },
@@ -226,9 +226,9 @@ const newSalons = [
       note: "Płatność kartą, BLIK oraz gotówką. Rezerwacje 24/7 przez Booksy."
     },
     team: [
-      { "name": "Kamil", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Mullet & Alternatywa", "ig": "https://instagram.com/burda_barbershop" },
-      { "name": "Oskar", "role": "Barber — Fade Specialist", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Precyzja Geometrii", "ig": "https://instagram.com/burda_barbershop" },
-      { "name": "Igor", "role": "Barber & Broda", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/burda_barbershop" }
+      { "name": "Kamil", "role": "Master Barber & Założyciel", "photo": "./img/burda-kamil.jpg", "exp": "Mullet & Alternatywa", "ig": "https://instagram.com/burda_barbershop" },
+      { "name": "Oskar", "role": "Barber — Fade Specialist", "photo": "./img/burda-oskar.jpg", "exp": "Precyzja Geometrii", "ig": "https://instagram.com/burda_barbershop" },
+      { "name": "Igor", "role": "Barber & Broda", "photo": "./img/burda-igor.jpg", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/burda_barbershop" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=800&fit=crop", "alt": "BURDA Gdańsk Ogarna", "cap": "Salon & Concept Space" },
@@ -286,7 +286,7 @@ const newSalons = [
       proof: "5,0/5 — 250+ opinii na Booksy & Google",
       ratingValue: 5.0,
       reviewsCount: 250,
-      image: "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=1800&h=1200&fit=crop"
+      image: "./img/danziger-hero.jpg"
     },
     proofStrip: ["Booksy 5,0 ★★★★★", "Google 5,0 ★★★★★", "Gdańsk Angielska Grobla", "@danzigerbarber"],
     trust: commonTrust,
@@ -347,14 +347,14 @@ const newSalons = [
       {
         name: "Daniel Wojnowski",
         role: "Master Barber & Założyciel",
-        photo: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=800&h=900&fit=crop",
+        photo: "./img/danziger-daniel.jpg",
         exp: "Mistrz Detalu & Brzytwy",
         bio: "Ponad 8 lat doświadczenia w precyzyjnym fryzjerstwie męskim. Angielska Grobla 32 to kameralne, niezależne studio nad Motławą — bez pośpiechu, bez hałasu i bez taśmy produkcyjnej. Każda wizyta to 100% mojej uwagi dedykowanej jednej osobie.",
         ig: "https://instagram.com/danzigerbarber"
       }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Danziger Barber Studio", "cap": "Studio Angielska Grobla" },
+      { "src": "./img/danziger-interior.jpg", "alt": "Danziger Barber Studio", "cap": "Studio Angielska Grobla" },
       { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Taper Fade", "cap": "Taper Fade" },
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo", "cap": "Combo Pakiet" },
       { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Stylizacja Brody", "cap": "Kontur Brody" },
@@ -466,9 +466,9 @@ const newSalons = [
       note: "Płatność kartą, BLIK i gotówką. Zapisy przez Booksy lub DM."
     },
     team: [
-      { "name": "Norman", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "1000+ Opinii 5.0★", "ig": "https://instagram.com/bones_barber_" },
-      { "name": "Szymon", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Mistrz Skin Fade", "ig": "https://instagram.com/bones_barber_" },
-      { "name": "Patryk", "role": "Barber — Beard Stylist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rzemiosło Brzytwy", "ig": "https://instagram.com/bones_barber_" }
+      { "name": "Norman", "role": "Master Barber & Założyciel", "photo": "./img/bones-norman.jpg", "exp": "1000+ Opinii 5.0★", "ig": "https://instagram.com/bones_barber_" },
+      { "name": "Szymon", "role": "Senior Barber", "photo": "./img/bones-szymon.jpg", "exp": "Mistrz Skin Fade", "ig": "https://instagram.com/bones_barber_" },
+      { "name": "Patryk", "role": "Barber — Beard Stylist", "photo": "./img/bones-patryk.jpg", "exp": "Rzemiosło Brzytwy", "ig": "https://instagram.com/bones_barber_" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Bones Barber Gdańsk", "cap": "Salon Polanki" },
@@ -583,9 +583,9 @@ const newSalons = [
       note: "Płatność kartą, BLIK oraz gotówką. Rezerwacja online 24/7."
     },
     team: [
-      { "name": "Piotr", "role": "Master Barber & Założyciel", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Tradycja Przymorza", "ig": "https://instagram.com/starybarbershop" },
-      { "name": "Tomasz", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Mistrz Nożyczek", "ig": "https://instagram.com/starybarbershop" },
-      { "name": "Marek", "role": "Barber — Beard Specialist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Tradycyjne Golenie", "ig": "https://instagram.com/starybarbershop" }
+      { "name": "Piotr", "role": "Master Barber & Założyciel", "photo": "./img/stary-piotr.jpg", "exp": "Tradycja Przymorza", "ig": "https://instagram.com/starybarbershop" },
+      { "name": "Tomasz", "role": "Senior Barber", "photo": "./img/stary-tomasz.jpg", "exp": "Mistrz Nożyczek", "ig": "https://instagram.com/starybarbershop" },
+      { "name": "Marek", "role": "Barber — Beard Specialist", "photo": "./img/stary-marek.jpg", "exp": "Tradycyjne Golenie", "ig": "https://instagram.com/starybarbershop" }
     ],
     gallery: [
       { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Stary Barber Shop Falowiec", "cap": "Salon Przymorze" },
