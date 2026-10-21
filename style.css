@@ -880,13 +880,14 @@ img{display:block;max-width:100%}
   font-size:var(--text-xs);
   color:var(--muted-2);
   margin-top:6px;
+  margin-bottom:var(--space-4);
   letter-spacing:var(--tracking-wide);
   text-transform:uppercase;
 }
 .team-ig{color:var(--accent);font-weight:600}
 .team-ig:hover{text-decoration:underline}
 .team-book-btn{
-  margin-top:var(--space-6);
+  margin-top:auto;
   width:100%;
   padding:10px 16px;
   border-radius:var(--radius-pill);

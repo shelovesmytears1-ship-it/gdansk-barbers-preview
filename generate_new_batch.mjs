@@ -107,20 +107,23 @@ const newSalons = [
       note: "Płatność kartą, BLIK oraz gotówką. Bezpośrednia rezerwacja w Booksy."
     },
     team: [
-      { "name": "Alex", "role": "Master Barber", "photo": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=500&h=500&fit=crop", "exp": "Mistrz Fade & Geometria", "ig": "https://instagram.com/easybarber.gdansk" },
-      { "name": "Max", "role": "Senior Barber", "photo": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=500&h=500&fit=crop", "exp": "Klasyczne Nożyczki", "ig": "https://instagram.com/easybarber.gdansk" },
-      { "name": "Witek", "role": "Barber & Beard Specialist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/easybarber.gdansk" },
-      { "name": "Daniel", "role": "Barber & Stylist", "photo": "https://images.unsplash.com/photo-1534778101976-62847782c213?w=500&h=500&fit=crop", "exp": "Nowoczesny Styling", "ig": "https://instagram.com/easybarber.gdansk" }
+      { "name": "Alex", "role": "Master Barber", "photo": "./img/barber-alex.jpg", "exp": "Mistrz Fade & Geometria", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Max", "role": "Senior Barber", "photo": "./img/barber-max.jpg", "exp": "Klasyczne Nożyczki", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Witek", "role": "Barber & Beard Specialist", "photo": "./img/barber-witek.jpg", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/easybarber.gdansk" },
+      { "name": "Daniel", "role": "Barber & Stylist", "photo": "./img/barber-daniel.jpg", "exp": "Nowoczesny Styling", "ig": "https://instagram.com/easybarber.gdansk" }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=800&fit=crop", "alt": "Easy Barber Gdańsk Salon", "cap": "Salon" },
+      { "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=800&fit=crop", "alt": "Easy Barber Gdańsk Salon", "cap": "Wnętrze Salonu" },
       { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Skin Fade Wrzeszcz", "cap": "Skin Fade" },
-      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo Włosy i Broda", "cap": "Combo" },
-      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Trymowanie Brody", "cap": "Broda" }
+      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo Włosy i Broda", "cap": "Combo Pakiet" },
+      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Trymowanie Brody", "cap": "Kontur Brody" },
+      { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Golenie Brzytwą", "cap": "Golenie Brzytwą" },
+      { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Stylizacja Włosów", "cap": "Styling & Finish" }
     ],
     reviews: [
       { "name": "Tomasz K.", "stars": 5, "date": "2026-09", "text": "Najlepsze przejście we Wrzeszczu. Szybko, punktualnie i z pełną klasą. Polecam!", "href": "https://maps.google.com/" },
-      { "name": "Jakub M.", "stars": 5, "date": "2026-08", "text": "Świetna atmosfera na Sobótki, kawa przed cięciem i mega precyzyjna robota brzytwą.", "href": "https://maps.google.com/" }
+      { "name": "Jakub M.", "stars": 5, "date": "2026-08", "text": "Świetna atmosfera na Sobótki, kawa przed cięciem i mega precyzyjna robota brzytwą.", "href": "https://maps.google.com/" },
+      { "name": "Kamil W.", "stars": 5, "date": "2026-07", "text": "Chodzę do chłopaków od ponad roku. Broda zawsze dopracowana, nożyczki i brzytwa na najwyższym poziomie. Polecam każdego barbera z ekipy!", "href": "https://maps.google.com/" }
     ],
     contact: {
       address: "ul. Sobótki 1/2, 80-247 Gdańsk (Wrzeszcz)",
@@ -228,13 +231,16 @@ const newSalons = [
       { "name": "Igor", "role": "Barber & Broda", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rytuał Brzytwy", "ig": "https://instagram.com/burda_barbershop" }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=800&fit=crop", "alt": "BURDA Gdańsk Ogarna", "cap": "Salon" },
-      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Cięcie Męskie", "cap": "Fade" },
-      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo Burda", "cap": "Combo" }
+      { "src": "https://images.unsplash.com/photo-1599351431202-1e0f0137899a?w=800&h=800&fit=crop", "alt": "BURDA Gdańsk Ogarna", "cap": "Salon & Concept Space" },
+      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Cięcie Męskie", "cap": "Skin Fade" },
+      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo Burda", "cap": "Combo Pakiet" },
+      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Stylizacja Brody", "cap": "Broda & Kontur" },
+      { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Rytuał Brzytwy", "cap": "Hot Towel Shave" }
     ],
     reviews: [
       { "name": "Michał W.", "stars": 5, "date": "2026-09", "text": "Najbardziej stylowy barber w Gdańsku. Ogromna wiedza, widać że żyją tą pasją.", "href": "https://maps.google.com/" },
-      { "name": "Piotr R.", "stars": 5, "date": "2026-08", "text": "Rewelacyjny mullet i fade. Nareszcie barber, który rozumie nowoczesne trendy.", "href": "https://maps.google.com/" }
+      { "name": "Piotr R.", "stars": 5, "date": "2026-08", "text": "Rewelacyjny mullet i fade. Nareszcie barber, który rozumie nowoczesne trendy.", "href": "https://maps.google.com/" },
+      { "name": "Grzegorz M.", "stars": 5, "date": "2026-07", "text": "Świetna atmosfera na Ogarnej, chłopaki podchodzą do klienta w 100% indywidualnie. Polecam!", "href": "https://maps.google.com/" }
     ],
     contact: {
       address: "ul. Ogarna 11/12 (wejście od ul. Zbytki), 80-826 Gdańsk",
@@ -348,13 +354,16 @@ const newSalons = [
       }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Danziger Barber Studio", "cap": "Studio" },
-      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Taper Fade", "cap": "Fade" },
-      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo", "cap": "Combo" }
+      { "src": "https://images.unsplash.com/photo-1517832606589-71574624b5d2?w=800&h=800&fit=crop", "alt": "Danziger Barber Studio", "cap": "Studio Angielska Grobla" },
+      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Taper Fade", "cap": "Taper Fade" },
+      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Combo", "cap": "Combo Pakiet" },
+      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Stylizacja Brody", "cap": "Kontur Brody" },
+      { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Golenie Brzytwą", "cap": "Golenie Brzytwą" }
     ],
     reviews: [
       { "name": "Kamil B.", "stars": 5, "date": "2026-09", "text": "Ocena 5.0 w pełni zasłużona. Daniel podchodzi do cięcia jak do sztuki. Zdecydowanie polecam!", "href": "https://maps.google.com/" },
-      { "name": "Artur S.", "stars": 5, "date": "2026-08", "text": "Świetna lokalizacja na Angielskiej Grobli, pełen profesjonalizm i spokój podczas wizyty.", "href": "https://maps.google.com/" }
+      { "name": "Artur S.", "stars": 5, "date": "2026-08", "text": "Świetna lokalizacja na Angielskiej Grobli, pełen profesjonalizm i spokój podczas wizyty.", "href": "https://maps.google.com/" },
+      { "name": "Marcin K.", "stars": 5, "date": "2026-07", "text": "Najwyższa kultura pracy i absolutny spokój w fotelu. Zero pośpiechu, brzytwa poprowadzona po mistrzowsku.", "href": "https://maps.google.com/" }
     ],
     contact: {
       address: "ul. Angielska Grobla 32 lok. 32, 80-756 Gdańsk",
@@ -462,13 +471,16 @@ const newSalons = [
       { "name": "Patryk", "role": "Barber — Beard Stylist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Rzemiosło Brzytwy", "ig": "https://instagram.com/bones_barber_" }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Bones Barber Gdańsk", "cap": "Salon" },
-      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Fade Oliwa", "cap": "Fade" },
-      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Broda", "cap": "Broda" }
+      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Bones Barber Gdańsk", "cap": "Salon Polanki" },
+      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Fade Oliwa", "cap": "Skin Fade" },
+      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Broda", "cap": "Stylizacja Brody" },
+      { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Brzytwa", "cap": "Rytuał Brzytwy" },
+      { "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=800&fit=crop", "alt": "Wnętrze", "cap": "Klimat Oliwa" }
     ],
     reviews: [
       { "name": "Grzegorz N.", "stars": 5, "date": "2026-09", "text": "Ponad tysiąc opinii 5.0 mówi samo za siebie. Chłopaki w Oliwie nie mają sobie równych.", "href": "https://maps.google.com/" },
-      { "name": "Damian L.", "stars": 5, "date": "2026-08", "text": "Świetny klimat, kawa i cięcie zawsze na 100%. Mój stały barber od 2 lat.", "href": "https://maps.google.com/" }
+      { "name": "Damian L.", "stars": 5, "date": "2026-08", "text": "Świetny klimat, kawa i cięcie zawsze na 100%. Mój stały barber od 2 lat.", "href": "https://maps.google.com/" },
+      { "name": "Mateusz P.", "stars": 5, "date": "2026-07", "text": "Mega miejscówka, luźna atmosfera i zero sztuczności. Fade zawsze ostry jak brzytwa.", "href": "https://maps.google.com/" }
     ],
     contact: {
       address: "ul. Polanki 83, Klatka B, 80-302 Gdańsk (Oliwa)",
@@ -576,13 +588,16 @@ const newSalons = [
       { "name": "Marek", "role": "Barber — Beard Specialist", "photo": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=500&h=500&fit=crop", "exp": "Tradycyjne Golenie", "ig": "https://instagram.com/starybarbershop" }
     ],
     gallery: [
-      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Stary Barber Shop Falowiec", "cap": "Salon" },
-      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Fade Przymorze", "cap": "Fade" },
-      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Broda", "cap": "Broda" }
+      { "src": "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?w=800&h=800&fit=crop", "alt": "Stary Barber Shop Falowiec", "cap": "Salon Przymorze" },
+      { "src": "https://images.unsplash.com/photo-1622286342621-4bd786c2447c?w=800&h=800&fit=crop", "alt": "Fade Przymorze", "cap": "Skin Fade" },
+      { "src": "https://images.unsplash.com/photo-1621605815971-fbc98d665033?w=800&h=800&fit=crop", "alt": "Stylizacja Brody", "cap": "Broda & Kontur" },
+      { "src": "https://images.unsplash.com/photo-1512690459411-b9245aed614b?w=800&h=800&fit=crop", "alt": "Golenie Brzytwą", "cap": "Hot Towel Shave" },
+      { "src": "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?w=800&h=800&fit=crop", "alt": "Klimat Salona", "cap": "Tradycja & Rzemiosło" }
     ],
     reviews: [
       { "name": "Rafał D.", "stars": 5, "date": "2026-09", "text": "Mój ulubiony barber na Przymorzu. Zawsze świetne cięcie, a Figa w salonie robi super klimat!", "href": "https://maps.google.com/" },
-      { "name": "Bartek W.", "stars": 5, "date": "2026-08", "text": "Klasyczne podejście, żadnego pośpiechu. Bardzo solidna robota przy combo z brodą.", "href": "https://maps.google.com/" }
+      { "name": "Bartek W.", "stars": 5, "date": "2026-08", "text": "Klasyczne podejście, żadnego pośpiechu. Bardzo solidna robota przy combo z brodą.", "href": "https://maps.google.com/" },
+      { "name": "Krzysztof M.", "stars": 5, "date": "2026-07", "text": "Świetna miejscówka pod falowcem. Chłopaki znają się na fachu, a broda wygląda perfekcyjnie.", "href": "https://maps.google.com/" }
     ],
     contact: {
       address: "ul. Jagiellońska 10H/1 (przejście pod falowcem), 80-371 Gdańsk",
@@ -754,6 +769,33 @@ newSalons.forEach(salon => {
       </div>
     `).join('');
     html = html.replace(/<div class="team-grid" id="team-grid"><\/div>/i, `<div class="team-grid" id="team-grid">${staticTeamCards}</div>`);
+  }
+
+  // Pre-bake Gallery (5-6 items, fills horizontal container)
+  if (salon.gallery && salon.gallery.length > 0) {
+    const staticGalleryHtml = salon.gallery.map((g, idx) => `
+      <figure class="gallery-frame ${idx === 0 ? 'is-active' : ''}" tabindex="0" role="group" aria-label="${escapeHTML(g.cap || g.alt)}">
+        <img src="${g.src}" alt="${escapeHTML(g.alt)}" loading="lazy">
+        <div class="gallery-overlay" aria-hidden="true"></div>
+        ${g.cap ? `<figcaption class="gallery-cap"><span>${escapeHTML(g.cap)}</span><span class="gallery-zoom-hint"><i data-lucide="maximize-2" style="width:13px;height:13px" aria-hidden="true"></i> Powiększ</span></figcaption>` : ''}
+      </figure>
+    `).join('');
+    html = html.replace(/<div class="gallery-accordion" id="gallery-grid"><\/div>/i, `<div class="gallery-accordion" id="gallery-grid">${staticGalleryHtml}</div>`);
+  }
+
+  // Pre-bake Reviews (exactly 3 items, perfectly filling 3-column desktop grid)
+  if (salon.reviews && salon.reviews.length > 0) {
+    const staticReviewsHtml = salon.reviews.map(r => `
+      <div class="review">
+        <div class="review-header">
+          <div class="review-avatar">${r.name.slice(0, 2).toUpperCase()}</div>
+          <div class="stars" aria-label="${r.stars} z 5">${'★'.repeat(r.stars)}</div>
+        </div>
+        <p>“${escapeHTML(r.text)}”</p>
+        <div class="meta"><strong>${escapeHTML(r.name)}</strong> • ${r.date} • <a class="review-link" href="${r.href || 'https://maps.google.com/'}" target="_blank" rel="noopener">Google</a></div>
+      </div>
+    `).join('');
+    html = html.replace(/<div class="reviews-grid" id="reviews-grid"><\/div>/i, `<div class="reviews-grid" id="reviews-grid">${staticReviewsHtml}</div>`);
   }
 
   // Contact section
